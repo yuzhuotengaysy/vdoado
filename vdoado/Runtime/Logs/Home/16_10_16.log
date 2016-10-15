@@ -1,0 +1,44 @@
+[ 2016-10-16T00:34:40+08:00 ] ::1 /vdoado/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./vdoado/Runtime/Cache\ebf51e95eb755aca44520c8da50660b414fe732a.file.index.html.php D:\xampp\htdocs\vdoado\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./vdoado/Runtime/Cache\ebf51e95eb755aca44520c8da50660b414fe732a.file.index.html.php): No such file or directory D:\xampp\htdocs\vdoado\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: Think D:\xampp\htdocs\vdoado\vdoado\Runtime\Cache\ebf51e95eb755aca44520c8da50660b414fe732a.file.index.html.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\vdoado\vdoado\Runtime\Cache\ebf51e95eb755aca44520c8da50660b414fe732a.file.index.html.php 第 33 行.
+NOTIC: [8] Undefined index: Think D:\xampp\htdocs\vdoado\vdoado\Runtime\Cache\ebf51e95eb755aca44520c8da50660b414fe732a.file.index.html.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\vdoado\vdoado\Runtime\Cache\ebf51e95eb755aca44520c8da50660b414fe732a.file.index.html.php 第 35 行.
+NOTIC: [8] Undefined index: Think D:\xampp\htdocs\vdoado\vdoado\Runtime\Cache\ebf51e95eb755aca44520c8da50660b414fe732a.file.index.html.php 第 64 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\vdoado\vdoado\Runtime\Cache\ebf51e95eb755aca44520c8da50660b414fe732a.file.index.html.php 第 64 行.
+NOTIC: [8] Undefined index: Think D:\xampp\htdocs\vdoado\vdoado\Runtime\Cache\ebf51e95eb755aca44520c8da50660b414fe732a.file.index.html.php 第 66 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\vdoado\vdoado\Runtime\Cache\ebf51e95eb755aca44520c8da50660b414fe732a.file.index.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-16T00:35:17+08:00 ] ::1 /vdoado/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

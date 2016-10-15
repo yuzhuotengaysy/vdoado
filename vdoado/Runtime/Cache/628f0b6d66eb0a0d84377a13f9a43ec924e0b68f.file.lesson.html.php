@@ -1,4 +1,25 @@
-<!DOCTYPE html>
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-16 00:34:34
+         compiled from "./vdoado/Admin/View\Tch\lesson.html" */ ?>
+<?php /*%%SmartyHeaderCode:1528858025a9ab99ac0-23030861%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '628f0b6d66eb0a0d84377a13f9a43ec924e0b68f' => 
+    array (
+      0 => './vdoado/Admin/View\\Tch\\lesson.html',
+      1 => 1476545438,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1528858025a9ab99ac0-23030861',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_58025a9ac4976',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_58025a9ac4976')) {function content_58025a9ac4976($_smarty_tpl) {?><!DOCTYPE html>
 <html>
 
 <head>
@@ -7,12 +28,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>课程中心</title>
     <link rel="shortcut icon" href="favicon.ico"> 
-    <link href="{$smarty.const.CSS_URL}bootstrap.min.css-v=3.3.5.css" rel="stylesheet">
-    <link href="{$smarty.const.CSS_URL}font-awesome.min.css-v=4.4.0.css" rel="stylesheet">
-    <link href="{$smarty.const.CSS_URL}plugins/iCheck/custom.css" rel="stylesheet">
-    <link href="{$smarty.const.CSS_URL}plugins/sweetalert/sweetalert.css" rel="stylesheet">
-    <link href="{$smarty.const.CSS_URL}animate.min.css" rel="stylesheet">
-    <link href="{$smarty.const.CSS_URL}style.min.css-v=4.0.0.css" rel="stylesheet">
+    <link href="<?php echo @CSS_URL;?>
+bootstrap.min.css-v=3.3.5.css" rel="stylesheet">
+    <link href="<?php echo @CSS_URL;?>
+font-awesome.min.css-v=4.4.0.css" rel="stylesheet">
+    <link href="<?php echo @CSS_URL;?>
+plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="<?php echo @CSS_URL;?>
+plugins/sweetalert/sweetalert.css" rel="stylesheet">
+    <link href="<?php echo @CSS_URL;?>
+animate.min.css" rel="stylesheet">
+    <link href="<?php echo @CSS_URL;?>
+style.min.css-v=4.0.0.css" rel="stylesheet">
 
 </head>
 
@@ -47,7 +74,8 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <a class="btn btn-sm btn-primary pull-left m-t-n-xs" href="{$smarty.const.__MODULE__}/Tch/result">
+                                        <a class="btn btn-sm btn-primary pull-left m-t-n-xs" href="<?php echo @__MODULE__;?>
+/Tch/result">
                                             <strong>查 看 结 果</strong>
                                         </a>
                                     </div>
@@ -62,11 +90,16 @@
 
     
     </div>
-    <script src="{$smarty.const.JS_URL}jquery.min.js-v=2.1.4.js"></script>
-    <script src="{$smarty.const.JS_URL}bootstrap.min.js-v=3.3.5.js"></script>
-    <script src="{$smarty.const.JS_URL}content.min.js-v=1.0.0.js"></script>
-    <script src="{$smarty.const.JS_URL}plugins/iCheck/icheck.min.js"></script>
-    <script src="{$smarty.const.JS_URL}plugins/sweetalert/sweetalert.min.js"></script>
+    <script src="<?php echo @JS_URL;?>
+jquery.min.js-v=2.1.4.js"></script>
+    <script src="<?php echo @JS_URL;?>
+bootstrap.min.js-v=3.3.5.js"></script>
+    <script src="<?php echo @JS_URL;?>
+content.min.js-v=1.0.0.js"></script>
+    <script src="<?php echo @JS_URL;?>
+plugins/iCheck/icheck.min.js"></script>
+    <script src="<?php echo @JS_URL;?>
+plugins/sweetalert/sweetalert.min.js"></script>
     <script type="text/javascript">
         /* 复制按钮 */
         function copyit(e){
@@ -78,4 +111,4 @@
     </script>
 </body>
 
-</html>
+</html><?php }} ?>

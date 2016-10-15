@@ -1,0 +1,136 @@
+[ 2016-10-16T00:31:47+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-16T00:31:47+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T00:33:46+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-10-16T00:34:04+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-10-16T00:34:33+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `course`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./vdoado/Runtime/Cache\2bb73a19e090fcd534e3fc357c5f6cc1c315ba23.file.index.html.php D:\xampp\htdocs\vdoado\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./vdoado/Runtime/Cache\2bb73a19e090fcd534e3fc357c5f6cc1c315ba23.file.index.html.php): No such file or directory D:\xampp\htdocs\vdoado\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T00:34:33+08:00 ] ::1 /vdoado/index.php/Admin/Index/index_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./vdoado/Runtime/Cache\e6b4c49e423e61ef9f8acb57ff3981058d4e7495.file.index_show.html.php D:\xampp\htdocs\vdoado\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./vdoado/Runtime/Cache\e6b4c49e423e61ef9f8acb57ff3981058d4e7495.file.index_show.html.php): No such file or directory D:\xampp\htdocs\vdoado\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T00:34:34+08:00 ] ::1 /vdoado/index.php/Admin/Tch/lesson?id=1?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./vdoado/Runtime/Cache\628f0b6d66eb0a0d84377a13f9a43ec924e0b68f.file.lesson.html.php D:\xampp\htdocs\vdoado\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./vdoado/Runtime/Cache\628f0b6d66eb0a0d84377a13f9a43ec924e0b68f.file.lesson.html.php): No such file or directory D:\xampp\htdocs\vdoado\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T00:34:35+08:00 ] ::1 /vdoado/index.php/Admin/Tch/new_lesson?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./vdoado/Runtime/Cache\a7bbac61de49cf5e4b7fb42265a311c287aeac86.file.new_lesson.html.php D:\xampp\htdocs\vdoado\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./vdoado/Runtime/Cache\a7bbac61de49cf5e4b7fb42265a311c287aeac86.file.new_lesson.html.php): No such file or directory D:\xampp\htdocs\vdoado\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

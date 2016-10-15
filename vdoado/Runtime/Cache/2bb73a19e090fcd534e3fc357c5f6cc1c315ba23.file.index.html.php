@@ -1,4 +1,30 @@
-<!DOCTYPE html>
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-16 00:34:32
+         compiled from "./vdoado/Admin/View\Index\index.html" */ ?>
+<?php /*%%SmartyHeaderCode:1924758025a98e48c37-65010371%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '2bb73a19e090fcd534e3fc357c5f6cc1c315ba23' => 
+    array (
+      0 => './vdoado/Admin/View\\Index\\index.html',
+      1 => 1476547146,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1924758025a98e48c37-65010371',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'res' => 0,
+    'value' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_58025a9905a60',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_58025a9905a60')) {function content_58025a9905a60($_smarty_tpl) {?><!DOCTYPE html>
 <html>
 
 <head>
@@ -8,10 +34,14 @@
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <title>课程中心</title>
     <link rel="shortcut icon" href="favicon.ico">
-    <link href="{$smarty.const.CSS_URL}bootstrap.min.css-v=3.3.5.css" rel="stylesheet">
-    <link href="{$smarty.const.CSS_URL}font-awesome.min.css-v=4.4.0.css" rel="stylesheet">
-    <link href="{$smarty.const.CSS_URL}animate.min.css" rel="stylesheet">
-    <link href="{$smarty.const.CSS_URL}style.min.css-v=4.0.0.css" rel="stylesheet">
+    <link href="<?php echo @CSS_URL;?>
+bootstrap.min.css-v=3.3.5.css" rel="stylesheet">
+    <link href="<?php echo @CSS_URL;?>
+font-awesome.min.css-v=4.4.0.css" rel="stylesheet">
+    <link href="<?php echo @CSS_URL;?>
+animate.min.css" rel="stylesheet">
+    <link href="<?php echo @CSS_URL;?>
+style.min.css-v=4.0.0.css" rel="stylesheet">
 </head>
 
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
@@ -38,16 +68,26 @@
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="nav nav-second-level">
-                            {foreach $res as $key => $value}
+                            <?php  $_smarty_tpl->tpl_vars['value'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['value']->_loop = false;
+ $_smarty_tpl->tpl_vars['key'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->tpl_vars['res']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['value']->key => $_smarty_tpl->tpl_vars['value']->value){
+$_smarty_tpl->tpl_vars['value']->_loop = true;
+ $_smarty_tpl->tpl_vars['key']->value = $_smarty_tpl->tpl_vars['value']->key;
+?>
                             <li>
-                                <a class="J_menuItem" href="{$smarty.const.__MODULE__}/Tch/lesson?id={$value.course_id}" data-index="0">{$value.course_pubtime}</a>
+                                <a class="J_menuItem" href="<?php echo @__MODULE__;?>
+/Tch/lesson?id=<?php echo $_smarty_tpl->tpl_vars['value']->value['course_id'];?>
+" data-index="0"><?php echo $_smarty_tpl->tpl_vars['value']->value['course_pubtime'];?>
+</a>
                             </li>
-                            {/foreach}
+                            <?php } ?>
                         </ul>
                         
                     </li>
                     <li>
-                        <a class="J_menuItem" href="{$smarty.const.__MODULE__}/Tch/new_lesson">
+                        <a class="J_menuItem" href="<?php echo @__MODULE__;?>
+/Tch/new_lesson">
                             <i class="fa fa-columns"></i> 
                             <span class="nav-label">配置新课</span>
                         </a>
@@ -105,7 +145,8 @@
                 <a href="#"  class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i>退出</a>
             </div>
             <div class="row J_mainContent" id="content-main">
-                <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="{$smarty.const.__MODULE__}/Index/index_show" frameborder="0" data-id="index_v1.html" seamless></iframe>
+                <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="<?php echo @__MODULE__;?>
+/Index/index_show" frameborder="0" data-id="index_v1.html" seamless></iframe>
             </div>
             <div class="footer">
                 <div class="pull-right">&copy; 2016
@@ -202,14 +243,22 @@
         <!--右侧边栏结束-->
         
     </div>
-    <script src="{$smarty.const.JS_URL}jquery.min.js-v=2.1.4.js"></script>
-    <script src="{$smarty.const.JS_URL}bootstrap.min.js-v=3.3.5.js"></script>
-    <script src="{$smarty.const.JS_URL}plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="{$smarty.const.JS_URL}plugins/slimscroll/jquery.slimscroll.min.js"></script>
-    <script src="{$smarty.const.JS_URL}plugins/layer/layer.min.js"></script>
-    <script src="{$smarty.const.JS_URL}hplus.min.js-v=4.0.0.js"></script>
-    <script type="text/javascript" src="{$smarty.const.JS_URL}contabs.min.js"></script>
-    <script src="{$smarty.const.JS_URL}plugins/pace/pace.min.js"></script>
+    <script src="<?php echo @JS_URL;?>
+jquery.min.js-v=2.1.4.js"></script>
+    <script src="<?php echo @JS_URL;?>
+bootstrap.min.js-v=3.3.5.js"></script>
+    <script src="<?php echo @JS_URL;?>
+plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="<?php echo @JS_URL;?>
+plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="<?php echo @JS_URL;?>
+plugins/layer/layer.min.js"></script>
+    <script src="<?php echo @JS_URL;?>
+hplus.min.js-v=4.0.0.js"></script>
+    <script type="text/javascript" src="<?php echo @JS_URL;?>
+contabs.min.js"></script>
+    <script src="<?php echo @JS_URL;?>
+plugins/pace/pace.min.js"></script>
 </body>
 
-</html>
+</html><?php }} ?>
