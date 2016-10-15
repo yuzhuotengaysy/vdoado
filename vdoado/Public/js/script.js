@@ -1,5 +1,5 @@
-var adoPath = 'audio/';
-var vdoPath = 'video/';
+var adoPath = '/vdoado/vdoado/Public/audio/';
+var vdoPath = '/vdoado/vdoado/Public/video/';
 var ajaxPath4Media = 'test.php'; //insert ajaxUrl for media here
 var ajaxPath4Check = 'check.php'; //insert ajaxUrl for check here 
 var adoRcr = 0;
