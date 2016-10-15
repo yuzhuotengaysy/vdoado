@@ -598,3 +598,3349 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
+[ 2016-10-15T22:30:57+08:00 ] ::1 /vdoado/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2016-10-15T22:30:57+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003173s ]
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002376s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002399s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002086s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004157s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023724s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005543s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016022s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002769s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005406s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003753s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:30:58+08:00 ] ::1 /vdoado/index.php/admin/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005415s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:31:04+08:00 ] ::1 /vdoado/index.php/admin/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:31:04+08:00 ] ::1 /vdoado/index.php/admin/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:31:04+08:00 ] ::1 /vdoado/index.php/admin/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:31:04+08:00 ] ::1 /vdoado/index.php/admin/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:31:04+08:00 ] ::1 /vdoado/index.php/admin/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007067s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:31:04+08:00 ] ::1 /vdoado/index.php/admin/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005871s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:31:39+08:00 ] ::1 /vdoado/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006429s ]
+
+[ 2016-10-15T22:31:39+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.065663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.065810s ]
+
+[ 2016-10-15T22:31:47+08:00 ] ::1 /vdoado/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000691s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000849s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001971s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004057s ]
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/admin/index/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002839s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/admin/index/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003725s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/admin/index/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002696s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/admin/index/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/admin/index/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036852s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/admin/index/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002919s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:31:49+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003755s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:31:49+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003964s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:31:49+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:31:49+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:25+08:00 ] ::1 /vdoado/?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001960s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005996s ]
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000520s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002063s ]
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002847s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010269s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002058s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007862s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012303s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:26+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:27+08:00 ] ::1 /vdoado/index.php/admin/index/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003674s ]
+ERR: 非法操作:public
+
+[ 2016-10-15T22:32:38+08:00 ] ::1 /vdoado/?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002048s ]
+
+[ 2016-10-15T22:32:39+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008138s ]
+
+[ 2016-10-15T22:32:39+08:00 ] ::1 /vdoado/index.php/admin/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:32:39+08:00 ] ::1 /vdoado/index.php/admin/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:32:39+08:00 ] ::1 /vdoado/index.php/admin/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:32:39+08:00 ] ::1 /vdoado/index.php/admin/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:32:39+08:00 ] ::1 /vdoado/index.php/admin/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:32:39+08:00 ] ::1 /vdoado/index.php/admin/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:32:39+08:00 ] ::1 /vdoado/index.php/admin/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:32:39+08:00 ] ::1 /vdoado/index.php/admin/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:32:39+08:00 ] ::1 /vdoado/index.php/admin/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:32:39+08:00 ] ::1 /vdoado/index.php/admin/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006402s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:32:39+08:00 ] ::1 /vdoado/index.php/admin/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003944s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-15T22:33:20+08:00 ] ::1 /vdoado/?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002667s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021411s ]
+
+[ 2016-10-15T22:33:20+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-10-15T22:33:20+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:20+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:21+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:21+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:21+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003191s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:21+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003730s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:21+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:21+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:21+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004089s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:21+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005101s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:21+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:21+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:21+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002669s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:21+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006461s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:33:21+08:00 ] ::1 /vdoado/index.php/admin/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+ERR: 无法加载控制器:Vdoado
+
+[ 2016-10-15T22:34:01+08:00 ] ::1 /vdoado/?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003217s ]
+
+[ 2016-10-15T22:34:01+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000816s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010025s ]
+
+[ 2016-10-15T22:34:47+08:00 ] ::1 /vdoado/?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000585s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2016-10-15T22:34:47+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002243s ]
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010608s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002996s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003010s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:34:48+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002212s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:10+08:00 ] ::1 /vdoado/?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002043s ]
+
+[ 2016-10-15T22:35:10+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.047209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.047294s ]
+
+[ 2016-10-15T22:35:12+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:12+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:12+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:12+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:12+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:12+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:12+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012046s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:12+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:12+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002093s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:12+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:12+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006188s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:13+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005363s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:13+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009199s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:13+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:13+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003328s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:22+08:00 ] ::1 /vdoado/index.php/admin/tch/lesson.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000705s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2016-10-15T22:35:22+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:22+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:23+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:23+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:23+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:23+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:23+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:23+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009049s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:23+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:23+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004498s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:23+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004745s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:23+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:35:23+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003956s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:40+08:00 ] ::1 /vdoado/?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004134s ]
+
+[ 2016-10-15T22:37:40+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003805s ]
+
+[ 2016-10-15T22:37:42+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:42+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006017s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:42+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:42+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:42+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002128s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:42+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:42+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:42+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002648s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:42+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:42+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006970s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:42+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:42+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:43+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:43+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:43+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:52+08:00 ] ::1 /vdoado/?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2016-10-15T22:37:52+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+
+[ 2016-10-15T22:37:53+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:53+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:53+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:53+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004099s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:53+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:53+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011857s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:53+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:53+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022877s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:53+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005007s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:53+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:53+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:53+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:53+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:54+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.008777s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:37:54+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004112s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:40:48+08:00 ] ::1 /vdoado/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-10-15T22:40:48+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002793s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001910s ]
+
+[ 2016-10-15T22:40:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:40:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:40:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002014s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:40:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003217s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:40:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004509s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:40:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:40:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:40:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:40:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:40:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005110s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:40:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003244s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:40:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002537s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:40:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003552s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:01+08:00 ] ::1 /vdoado/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002187s ]
+
+[ 2016-10-15T22:41:01+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002129s ]
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011296s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033663s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028525s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019701s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:02+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:20+08:00 ] ::1 /vdoado/?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005042s ]
+
+[ 2016-10-15T22:41:20+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003600s ]
+
+[ 2016-10-15T22:41:21+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:21+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:22+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004278s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:22+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005864s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:22+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005391s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:22+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:22+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:22+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009991s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:22+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004388s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:22+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:22+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007643s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:22+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005614s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:22+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004266s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:22+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004818s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:22+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:32+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:32+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:32+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012103s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:32+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006961s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:32+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:41:32+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:43:43+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003702s ]
+
+[ 2016-10-15T22:43:43+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2016-10-15T22:46:00+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000549s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009369s ]
+
+[ 2016-10-15T22:46:01+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003384s ]
+
+[ 2016-10-15T22:46:15+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004454s ]
+
+[ 2016-10-15T22:46:15+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010954s ]
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003355s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010470s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005710s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002635s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:17+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/lesson.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020901s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000701s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002905s ]
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013371s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007455s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011221s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002709s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002048s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:20+08:00 ] ::1 /vdoado/index.php/admin/tch/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003642s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:40+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005889s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002168s ]
+
+[ 2016-10-15T22:46:41+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2016-10-15T22:46:48+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001934s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007384s ]
+
+[ 2016-10-15T22:46:48+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002004s ]
+
+[ 2016-10-15T22:46:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000296s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.057982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.058086s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:49+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:50+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:50+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:50+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024456s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:50+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:46:50+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:07+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008508s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2016-10-15T22:48:08+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001785s ]
+
+[ 2016-10-15T22:48:26+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002533s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000657s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004060s ]
+
+[ 2016-10-15T22:48:27+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003791s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002808s ]
+
+[ 2016-10-15T22:48:27+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:27+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/css/plugins/sweetalert/sweetalert.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:27+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002198s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:27+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004948s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:27+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:27+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:27+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:27+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:28+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003408s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:28+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:28+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:28+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:28+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/content.min.js-v=1.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004609s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:28+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003695s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:48:28+08:00 ] ::1 /vdoado/index.php/admin/index/vdoado/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002331s ]
+ERR: 非法操作:vdoado
+
+[ 2016-10-15T22:49:12+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000730s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002626s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008852s ]
+
+[ 2016-10-15T22:49:12+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000587s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004458s ]
+
+[ 2016-10-15T22:51:10+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001951s ]
+
+[ 2016-10-15T22:51:10+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000769s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-10-15T22:51:31+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000450s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002565s ]
+
+[ 2016-10-15T22:51:31+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001906s ]
+
+[ 2016-10-15T22:52:39+08:00 ] ::1 /vdoado/index.php?s=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000632s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000998s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002894s ]
+
+[ 2016-10-15T22:52:39+08:00 ] ::1 /vdoado/index.php/admin/index/index_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014444s ]
+
+[ 2016-10-15T22:52:45+08:00 ] ::1 /vdoado/index.php/admin/tch/lesson.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000633s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002889s ]
+

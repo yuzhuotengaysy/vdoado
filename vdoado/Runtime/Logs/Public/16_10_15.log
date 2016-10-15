@@ -1,0 +1,162 @@
+[ 2016-10-15T22:31:47+08:00 ] ::1 /vdoado/index.php/Public/js/jquery.min.js-v=2.1.4.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-15T22:31:47+08:00 ] ::1 /vdoado/index.php/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-10-15T22:31:47+08:00 ] ::1 /vdoado/index.php/Public/css/font-awesome.min.css-v=4.4.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-10-15T22:31:47+08:00 ] ::1 /vdoado/index.php/Public/css/style.min.css-v=4.0.0.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/Public/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/Public/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/Public/js/plugins/layer/layer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/Public/js/contabs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.049066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.049322s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/Public/js/hplus.min.js-v=4.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/Public/js/bootstrap.min.js-v=3.3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/Public/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/Public/js/plugins/pace/pace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002381s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-15T22:31:48+08:00 ] ::1 /vdoado/index.php/Public/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-15T22:31:49+08:00 ] ::1 /vdoado/index.php/Public/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004754s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-15T22:31:49+08:00 ] ::1 /vdoado/index.php/Public/js/plugins/layer/layer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-15T22:31:49+08:00 ] ::1 /vdoado/index.php/Public/js/hplus.min.js-v=4.0.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003719s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-15T22:31:49+08:00 ] ::1 /vdoado/index.php/Public/js/contabs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001960s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-15T22:31:49+08:00 ] ::1 /vdoado/index.php/Public/js/plugins/pace/pace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005687s ]
+ERR: 无法加载控制器:Js
+
