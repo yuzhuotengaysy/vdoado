@@ -6,15 +6,18 @@ class TchController extends Controller {
     	$course_detail = D('course');	    //实例化
     	$res = $course_detail  -> where('course_id = '.$_REQUEST["id"]) -> select();	//获得数据信息
     	
-    	//echo ;
-    	
     	//把数据assign到模板
     	$this -> assign('res', $res);
     	$this -> display();
     }
 
     public function result(){
-    	$result = D('result');	    //实例化
+    	$result  = D('result');	    //实例化
+    	$course  = D('course');	    
+    	$test    = D('test');
+    	$student = D('student');
+    	$ado     = D('ado');
+    	
     	$this -> display();
     }
 
