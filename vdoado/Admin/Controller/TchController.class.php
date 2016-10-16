@@ -5,7 +5,6 @@ class TchController extends Controller {
     public function lesson(){
     	$course = D('course');	    //实例化
     	$res = $course  -> where('course_id = '.$_REQUEST["id"]) -> select();	//获得数据信息
-    	
     	//把数据assign到模板
     	$this -> assign('res', $res);
     	$this -> display();
@@ -18,6 +17,10 @@ class TchController extends Controller {
     	$student = D('student');
     	$ado     = D('ado');
 
+    	$res_result = $result  -> where('result_id = '.$_REQUEST["id"]) -> select();	//将课程id和结果id匹配
+    	$res_student = $student -> select();											//查询学生信息
+    	//$res_student = $student -> where('student_id = '.$res_result[0]['result_id']);
+    	$this -> assign('res_student', $res_student);
     	$this -> display();
     }
 

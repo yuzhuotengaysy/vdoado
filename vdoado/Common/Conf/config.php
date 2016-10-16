@@ -5,7 +5,7 @@ return array(
 	'URL_MODEL' => 1,	
 
 	/* 页面显示追踪日至信息 */
-	//'SHOW_PAGE_TRACE' => true,
+	'SHOW_PAGE_TRACE' => true,
 
 	/* url地址大小写不敏感 */
 	'URL_CASE_INSENSITIVE' => true,
@@ -22,8 +22,5 @@ return array(
     'DB_DEBUG'  			=>  TRUE, 	     // 数据库调试模式 开启后可以记录SQL日志
     'DB_FIELDS_CACHE'       =>  true,        // 启用字段缓存
     'DB_CHARSET'            =>  'utf8',      // 数据库编码默认采用utf8
-
-    /* 修改模版引擎为smarty */
-    'TMPL_ENGINE_TYPE' => 'smarty',
 
 );
