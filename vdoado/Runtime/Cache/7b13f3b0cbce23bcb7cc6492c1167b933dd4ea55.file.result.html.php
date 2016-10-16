@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-16 20:45:46
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-16 23:13:49
          compiled from "./vdoado/Admin/View\Tch\result.html" */ ?>
 <?php /*%%SmartyHeaderCode:24758025be4a389f2-28489265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b13f3b0cbce23bcb7cc6492c1167b933dd4ea55' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\result.html',
-      1 => 1476621945,
+      1 => 1476630826,
       2 => 'file',
     ),
   ),
@@ -70,10 +70,7 @@ style.css" rel="stylesheet">
                                     <th>结果</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <?php if ($_smarty_tpl->tpl_vars['res_max']->value%2!=0){?>
-                                    <?php $_smarty_tpl->tpl_vars['res_max'] = new Smarty_variable($_smarty_tpl->tpl_vars['res_max']->value+1, null, 0);?>
-                                <?php }?>
+                            <tbody> 
                                 <?php $_smarty_tpl->tpl_vars["i"] = new Smarty_variable(0, null, 0);?>
                                 <?php  $_smarty_tpl->tpl_vars['value'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['value']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['res_student']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
@@ -83,23 +80,23 @@ $_smarty_tpl->tpl_vars['value']->_loop = true;
  $_smarty_tpl->tpl_vars['smarty']->value['foreach']['student']['index']++;
 ?>
                                 <tr>
-                                    <td><?php echo $_smarty_tpl->tpl_vars['res_student']->value[$_smarty_tpl->tpl_vars['i']->value++]['student_name'];?>
+                                    <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['student']['index']<$_smarty_tpl->tpl_vars['res_max']->value/2){?>
+                                        <td><?php echo $_smarty_tpl->tpl_vars['res_student']->value[$_smarty_tpl->tpl_vars['i']->value++]['student_name'];?>
 </td>
-                                    <td>
-                                        <input type="text" value="1 2 3" readonly=true>
-                                        <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
-                                    </td>
-                                    <td><?php echo $_smarty_tpl->tpl_vars['res_student']->value[$_smarty_tpl->tpl_vars['i']->value++]['student_name'];?>
-</td>   
-                                    <td>
-                                        <input type="text" value="1 2 3" readonly=true>
-                                        <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
-
-                                    </td>    
-                                    <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['student']['index']==$_smarty_tpl->tpl_vars['res_max']->value/2-1){?>
-                                        <?php break 1?>
-                                    <?php }?>
-                                </tr>
+                                        <td>
+                                            <input type="text" value="1 2 3" readonly=true>
+                                            <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
+                                        </td>
+                                        <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['student']['index']<=$_smarty_tpl->tpl_vars['res_max']->value/2-1){?>
+                                            <td><?php echo $_smarty_tpl->tpl_vars['res_student']->value[$_smarty_tpl->tpl_vars['i']->value++]['student_name'];?>
+</td>
+                                            <td>
+                                                <input type="text" value="1 2 3" readonly=true>
+                                                <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
+                                            </td>
+                                        <?php }?>
+                                    <?php }?>                   
+                                </tr>                           
                                 <?php } ?>
                             </tbody>
                         </table>
