@@ -1,5 +1,4 @@
-var adoPath = '';
-var vdoPath = '';
+
 var ajaxPath4Media = ''; //insert ajaxUrl for media here
 var ajaxPath4Check = ''; //insert ajaxUrl for check here 
 var adoRcr = 0;
@@ -9,9 +8,7 @@ var audios = [];
 var adoDropd = [];
 var video = '';
 
-function getPath(a,v,a4m,a4c){
-    adoPath = a;
-    vdoPath = v;
+function getPath(a4m,a4c){
     ajaxPath4Media = a4m; //insert ajaxUrl for media here
     ajaxPath4Check = a4c; //insert ajaxUrl for check here 
     init();
@@ -23,7 +20,7 @@ function loadSrc() {
         $('.drag').append('<div id="' + i + '" class="text-center ado">' + j +'<i class="glyphicon glyphicon-play"></i>' + '<a>x</a></div>')
     }
     $('.vdoPlayer').attr({ //setup video player
-        src: vdoPath + video
+        src: video
     });
     $('.ado>a').hide().click(function(){
         $(this).hide().parent().appendTo('.drag');
@@ -35,7 +32,7 @@ function loadSrc() {
         .hover(function() {
             var i = $(this).attr('id');
             $('.adoPlayer').attr({
-                src: adoPath + audios[i]
+                src: audios[i]
             });
             $('.adoPlayer')[0].play();
         }, function() {
@@ -77,7 +74,6 @@ function init() {
 	        accept: '.ado',
 	        drop: function(e, ui) {
 	            ui.draggable.appendTo(this).children('a').show();
-
 	        }
 	    });
 
@@ -96,7 +92,7 @@ function init() {
 
 			        $('#'+adoDropd[adoRcr]).children('i').removeClass('glyphicon-play').addClass('glyphicon-stop');     //play first 
 			        $('.adoPlayer').attr({
-			            src: adoPath + audios[adoDropd[adoRcr++]]
+			            src:  audios[adoDropd[adoRcr++]]
 			        })[0].play();
 
 
@@ -112,7 +108,7 @@ function init() {
 							$('#'+adoDropd[adoRcr-1]).children('i').addClass('glyphicon-play').removeClass('glyphicon-stop');
 			        		$('#'+adoDropd[adoRcr]).children('i').removeClass('glyphicon-play').addClass('glyphicon-stop');
 			                $(this).attr({
-			                    src: adoPath + audios[adoDropd[adoRcr++]]
+			                    src: audios[adoDropd[adoRcr++]]
 			                })[0].play();
 			            }
 			        };
@@ -134,20 +130,24 @@ function init() {
     	for (var i = 0; i < $('.drop>.ado').length; i++) {
 		    adoDropd[i] = parseInt($('.drop>.ado').eq(i).attr('id'));
 		}
-    	$.ajax({
-    		url: ajaxPath4Check,
-    		type: 'POST',
-    		data: {adoDropd: adoDropd},
-    	})
-    	.done(function() {
-    		console.log("success");
-    	})
-    	.fail(function() {
-    		console.log("error");
-    	})
-    	.always(function() {
-    		console.log("complete");
-    	});
-    	
+        if(adoDropd.length){
+        	$.ajax({
+        		url: ajaxPath4Check,
+        		type: 'POST',
+        		data: {adoDropd: adoDropd},
+        	})
+        	.done(function() {
+        		console.log("success");
+        	})
+        	.fail(function() {
+        		console.log("error");
+        	})
+        	.always(function() {
+        		console.log("complete");
+        	});
+    	}
+        else{
+            alert('您还没有选择音频');
+        }
     })
 }

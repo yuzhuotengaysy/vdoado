@@ -16,8 +16,8 @@ class IndexController extends Controller {
     }
     public function getMedia(){
 		$data = array();
-		$data['video'] = 'test.mp4';
-		$data['audios'] = array('1.ogg','2.ogg','3.ogg');
+		$data['video'] = $Think.VDO_URL.'test.mp4';
+		$data['audios'] = array($Think.ADO_URL.'1.ogg',$Think.ADO_URL.'2.ogg',$Think.ADO_URL.'3.ogg');
 		$this -> ajaxReturn($data);
     }
     public function check($adoDropd){
