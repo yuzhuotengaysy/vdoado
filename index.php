@@ -25,8 +25,10 @@
 	define('CSS_URL',SITE_URL.'/vdoado/Public/css/');
 	define('IMG_URL',SITE_URL.'/vdoado/Public/images/');
 	define('JS_URL',SITE_URL.'/vdoado/Public/js/');
-	define('AUDIO_URL',SITE_URL.'/vdoado/Public/audio/');
-	define('VIDEO_URL',SITE_URL.'/vdoado/Public/video/');
+	define('ADO_URL',SITE_URL.'/vdoado/Public/audio/');
+	define('VDO_URL',SITE_URL.'/vdoado/Public/video/');
+	define('A4M_URL','test.php');
+	define('A4C_URL','check.php');
 	
 	/* 引入框架核心 */
 	require './ThinkPHP/ThinkPHP.php';

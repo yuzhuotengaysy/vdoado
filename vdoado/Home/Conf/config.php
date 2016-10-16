@@ -6,4 +6,7 @@ return array(
 
 	//url地址大小写不敏感
 	'URL_CASE_INSENSITIVE' => true,
+
+	'SHOW_PAGE_TRACE'=>true
+
 );

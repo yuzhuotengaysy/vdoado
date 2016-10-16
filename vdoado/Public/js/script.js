@@ -1,17 +1,22 @@
-var adoPath = '/vdoado/vdoado/Public/audio/';
-var vdoPath = '/vdoado/vdoado/Public/video/';
-var ajaxPath4Media = 'test.php'; //insert ajaxUrl for media here
-var ajaxPath4Check = 'check.php'; //insert ajaxUrl for check here 
+var adoPath = '';
+var vdoPath = '';
+var ajaxPath4Media = ''; //insert ajaxUrl for media here
+var ajaxPath4Check = ''; //insert ajaxUrl for check here 
 var adoRcr = 0;
 
 //vars for ajaxQuery
 var audios = [];
 var adoDropd = [];
 var video = '';
-$(document).ready(function() {
-    init(); //initial page
-});
 
+function getPath(a,v,a4m,a4c){
+    adoPath = a;
+    vdoPath = v;
+    ajaxPath4Media = a4m; //insert ajaxUrl for media here
+    ajaxPath4Check = a4c; //insert ajaxUrl for check here 
+    init();
+    
+}
 function loadSrc() {
     for (var i in audios) { //create audio players
     	var j = parseInt(i)+1;
@@ -125,7 +130,7 @@ function init() {
 	    });
 
     $('.submit').click(function() {
-    	adoDropd = [];
+    	var adoDropd = [];
     	for (var i = 0; i < $('.drop>.ado').length; i++) {
 		    adoDropd[i] = parseInt($('.drop>.ado').eq(i).attr('id'));
 		}

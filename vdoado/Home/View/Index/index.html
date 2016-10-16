@@ -34,7 +34,12 @@
 
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="{$smarty.const.JS_URL}bootstrap.min.js"></script>
-    <script src="{$smarty.const.JS_URL}script.js"></script>
+    <script src="{$jsUrl}bootstrap.min.js"></script>
+    <script src="{$jsUrl}script.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function() {
+    		getPath('{$adoUrl}','{$vdoUrl}','{U('index/getMedia')}','{U('index/check')}');
+    	});
+    </script>
 </body>
 </html>
