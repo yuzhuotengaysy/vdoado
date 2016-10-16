@@ -747,3 +747,23 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
 
+[ 2016-10-16T21:59:19+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-16T22:14:57+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-16T22:15:17+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-16T22:15:37+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
