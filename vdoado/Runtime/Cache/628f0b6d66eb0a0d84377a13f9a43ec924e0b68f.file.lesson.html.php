@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-16 15:25:19
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-16 19:44:40
          compiled from "./vdoado/Admin/View\Tch\lesson.html" */ ?>
 <?php /*%%SmartyHeaderCode:1528858025a9ab99ac0-23030861%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '628f0b6d66eb0a0d84377a13f9a43ec924e0b68f' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\lesson.html',
-      1 => 1476602660,
+      1 => 1476618200,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'variables' => 
   array (
     'res' => 0,
-    'value' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -54,16 +53,8 @@ style.min.css-v=4.0.0.css" rel="stylesheet">
             <div class="col-sm-12">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
-                        <?php  $_smarty_tpl->tpl_vars['value'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['value']->_loop = false;
- $_smarty_tpl->tpl_vars['key'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['res']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['value']->key => $_smarty_tpl->tpl_vars['value']->value){
-$_smarty_tpl->tpl_vars['value']->_loop = true;
- $_smarty_tpl->tpl_vars['key']->value = $_smarty_tpl->tpl_vars['value']->key;
-?>
-                        <h5><?php echo $_smarty_tpl->tpl_vars['value']->value['course_name'];?>
+                        <h5><?php echo $_smarty_tpl->tpl_vars['res']->value[0]['course_name'];?>
 </h5>
-                        <?php } ?>
                     </div>
                     <div class="ibox-content">
                         <div class="row">
@@ -91,7 +82,8 @@ $_smarty_tpl->tpl_vars['value']->_loop = true;
                                     </div>
                                     <div>
                                         <a class="btn btn-sm btn-primary pull-left m-t-n-xs" href="<?php echo @__MODULE__;?>
-/Tch/result">
+/Tch/result/id/<?php echo I('get.id');?>
+">
                                             <strong>查 看 结 果</strong>
                                         </a>
                                     </div>
@@ -123,7 +115,7 @@ plugins/sweetalert/sweetalert.min.js"></script>
             copy_link.select();           // 选择对象 
             document.execCommand("Copy"); // 执行浏览器复制命令 
             swal('复制成功');
-        }
+        }   
     </script>
 </body>
 

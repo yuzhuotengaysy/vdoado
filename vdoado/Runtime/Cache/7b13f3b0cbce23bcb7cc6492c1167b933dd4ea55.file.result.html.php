@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-16 00:40:04
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-16 20:45:46
          compiled from "./vdoado/Admin/View\Tch\result.html" */ ?>
 <?php /*%%SmartyHeaderCode:24758025be4a389f2-28489265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b13f3b0cbce23bcb7cc6492c1167b933dd4ea55' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\result.html',
-      1 => 1476545394,
+      1 => 1476621945,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_58025be4b32a2',
+  'variables' => 
+  array (
+    'res_max' => 0,
+    'res_student' => 0,
+    'i' => 0,
+  ),
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_58025be4b32a2')) {function content_58025be4b32a2($_smarty_tpl) {?><!DOCTYPE html>
 <html>
@@ -53,7 +59,8 @@ style.css" rel="stylesheet">
                         </a>
                     </div>
                     <div class="ibox-content">  
-                        <h3>共提交<strong>xxx</strong>人</h3>
+                        <h3>共提交<strong><?php echo $_smarty_tpl->tpl_vars['res_max']->value;?>
+</strong>人</h3>
                         <table class="table table-striped"> 
                             <thead>
                                 <tr>
@@ -64,66 +71,36 @@ style.css" rel="stylesheet">
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php if ($_smarty_tpl->tpl_vars['res_max']->value%2!=0){?>
+                                    <?php $_smarty_tpl->tpl_vars['res_max'] = new Smarty_variable($_smarty_tpl->tpl_vars['res_max']->value+1, null, 0);?>
+                                <?php }?>
+                                <?php $_smarty_tpl->tpl_vars["i"] = new Smarty_variable(0, null, 0);?>
+                                <?php  $_smarty_tpl->tpl_vars['value'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['value']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['res_student']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+ $_smarty_tpl->tpl_vars['smarty']->value['foreach']['student']['index']=-1;
+foreach ($_from as $_smarty_tpl->tpl_vars['value']->key => $_smarty_tpl->tpl_vars['value']->value){
+$_smarty_tpl->tpl_vars['value']->_loop = true;
+ $_smarty_tpl->tpl_vars['smarty']->value['foreach']['student']['index']++;
+?>
                                 <tr>
-                                    <td>张三</td>
+                                    <td><?php echo $_smarty_tpl->tpl_vars['res_student']->value[$_smarty_tpl->tpl_vars['i']->value++]['student_name'];?>
+</td>
                                     <td>
                                         <input type="text" value="1 2 3" readonly=true>
                                         <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
                                     </td>
-                                    <td>张三</td>
+                                    <td><?php echo $_smarty_tpl->tpl_vars['res_student']->value[$_smarty_tpl->tpl_vars['i']->value++]['student_name'];?>
+</td>   
                                     <td>
                                         <input type="text" value="1 2 3" readonly=true>
                                         <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
-                                    </td>
+
+                                    </td>    
+                                    <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['student']['index']==$_smarty_tpl->tpl_vars['res_max']->value/2-1){?>
+                                        <?php break 1?>
+                                    <?php }?>
                                 </tr>
-                                <tr>
-                                    <td>张三</td>
-                                    <td>
-                                        <input type="text" value="1 2 3" readonly=true>
-                                        <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
-                                    </td>
-                                    <td>张三</td>
-                                    <td>
-                                        <input type="text" value="1 2 3" readonly=true>
-                                        <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>张三</td>
-                                    <td>
-                                        <input type="text" value="1 2 3" readonly=true>
-                                        <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
-                                    </td>
-                                    <td>张三</td>
-                                    <td>
-                                        <input type="text" value="1 2 3" readonly=true>
-                                        <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>张三</td>
-                                    <td>
-                                        <input type="text" value="1 2 3" readonly=true>
-                                        <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
-                                    </td>
-                                    <td>张三</td>
-                                    <td>
-                                        <input type="text" value="1 2 3" readonly=true>
-                                        <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>张三</td>
-                                    <td>
-                                        <input type="text" value="1 2 3" readonly=true>
-                                        <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
-                                    </td>
-                                    <td>张三</td>
-                                    <td>
-                                        <input type="text" value="1 2 3" readonly=true>
-                                        <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
-                                    </td>
-                                </tr>
+                                <?php } ?>
                             </tbody>
                         </table>
                         <h3>统计</h3>
