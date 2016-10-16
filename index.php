@@ -9,7 +9,7 @@
 	}
 
 	/* 开发模式 */
-	define('APP_DEBUG', true);
+	define('APP_DEBUG',true);
 	define('APP_NAME','vdoado');
 	define('APP_PATH','./vdoado/');
 	

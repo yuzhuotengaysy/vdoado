@@ -5,8 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>title</title>
-	<link href="{$Think.const.CSS_URL}bootstrap.min.css" rel="stylesheet">
-	<link href="{$Think.const.CSS_URL}style.css" rel="stylesheet" type="text/css">
+	<link href="{$cssUrl}bootstrap.min.css" rel="stylesheet">
+	<link href="{$cssUrl}style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	
@@ -34,17 +34,12 @@
 
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<<<<<<< HEAD
     <script src="{$jsUrl}bootstrap.min.js"></script>
     <script src="{$jsUrl}script.js"></script>
     <script type="text/javascript">
     	$(document).ready(function() {
-    		getPath('{$adoUrl}','{$vdoUrl}','{U('index/getMedia')}','{U('index/check')}');
+    		getPath('{$adoUrl}','{$vdoUrl}','{:U('index/getMedia')}','{:U('index/check')}');
     	});
     </script>
-=======
-    <script src="{$Think.const.JS_URL}bootstrap.min.js"></script>
-    <script src="{$Think.const.JS_URL}script.js"></script>
->>>>>>> f044ac8c1cfc9c52a5c710b9eace051652c9f83c
 </body>
 </html>

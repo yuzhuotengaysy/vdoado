@@ -5,8 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>title</title>
-	<link href="<?php echo (CSS_URL); ?>bootstrap.min.css" rel="stylesheet">
-	<link href="<?php echo (CSS_URL); ?>style.css" rel="stylesheet" type="text/css">
+	<link href="<?php echo ($cssUrl); ?>bootstrap.min.css" rel="stylesheet">
+	<link href="<?php echo ($cssUrl); ?>style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	
@@ -34,7 +34,12 @@
 
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="<?php echo (JS_URL); ?>bootstrap.min.js"></script>
-    <script src="<?php echo (JS_URL); ?>script.js"></script>
+    <script src="<?php echo ($jsUrl); ?>bootstrap.min.js"></script>
+    <script src="<?php echo ($jsUrl); ?>script.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function() {
+    		getPath('<?php echo ($adoUrl); ?>','<?php echo ($vdoUrl); ?>','<?php echo U('index/getMedia');?>','<?php echo U('index/check');?>');
+    	});
+    </script>
 </body>
 </html>

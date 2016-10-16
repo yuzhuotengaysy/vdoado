@@ -6,6 +6,7 @@ class IndexController extends Controller {
 
     	$this 
     	-> assign('jsUrl',$Think.JS_URL)
+    	-> assign('cssUrl',$Think.CSS_URL)
     	-> assign('adoUrl',$Think.ADO_URL)
     	-> assign('vdoUrl',$Think.VDO_URL)
     	-> assign('ajaxPath4Media',$Think.A4M_URL)
