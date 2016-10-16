@@ -9073,3 +9073,55 @@ ERR: 非法操作:content.min.js-v=1.0.0.js
 [ 2016-10-16T19:42:16+08:00 ] ::1 /vdoado/index.php/Admin/Tch/plugins/iCheck/icheck.min.js
 ERR: 非法操作:plugins
 
+[ 2016-10-16T20:29:20+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: Syntax Error in template "./vdoado/Admin/View\Tch\result.html"  on line 29 "&lt;h3&gt;共提交&lt;strong&gt;{res_student.last()}&lt;/strong&gt;人&lt;/h3&gt;"  - Unexpected ".", expected one of: "}" , " "
+
+[ 2016-10-16T20:32:10+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: Syntax Error in template "./vdoado/Admin/View\Tch\result.html"  on line 29 "&lt;h3&gt;共提交&lt;strong&gt;{res_max}&lt;/strong&gt;人&lt;/h3&gt;" unknown tag "res_max"
+
+[ 2016-10-16T20:32:20+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: Syntax Error in template "./vdoado/Admin/View\Tch\result.html"  on line 29 "&lt;h3&gt;共提交&lt;strong&gt;{res_max[0]}&lt;/strong&gt;人&lt;/h3&gt;"  - Unexpected "[", expected one of: "}" , " "
+
+[ 2016-10-16T20:32:54+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: Syntax Error in template "./vdoado/Admin/View\Tch\result.html"  on line 29 "&lt;h3&gt;共提交&lt;strong&gt;{res_max}&lt;/strong&gt;人&lt;/h3&gt;" unknown tag "res_max"
+
+[ 2016-10-16T20:33:20+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: Syntax Error in template "./vdoado/Admin/View\Tch\result.html"  on line 29 "&lt;h3&gt;共提交&lt;strong&gt;{res_max}&lt;/strong&gt;人&lt;/h3&gt;" unknown tag "res_max"
+
+[ 2016-10-16T20:34:27+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(id) AS tp_count FROM `student` LIMIT 1  
+
+[ 2016-10-16T20:34:35+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(id) AS tp_count FROM `student` LIMIT 1  
+
+[ 2016-10-16T20:34:37+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(id) AS tp_count FROM `student` LIMIT 1  
+
+[ 2016-10-16T20:34:41+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(id) AS tp_count FROM `student` LIMIT 1  
+
+[ 2016-10-16T20:35:08+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: Syntax Error in template "./vdoado/Admin/View\Tch\result.html"  on line 29 "&lt;h3&gt;共提交&lt;strong&gt;{res_max}&lt;/strong&gt;人&lt;/h3&gt;" unknown tag "res_max"
+
+[ 2016-10-16T20:35:25+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: Syntax Error in template "./vdoado/Admin/View\Tch\result.html"  on line 29 "&lt;h3&gt;共提交&lt;strong&gt;{res_max}&lt;/strong&gt;人&lt;/h3&gt;" unknown tag "res_max"
+
+[ 2016-10-16T20:35:27+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: Syntax Error in template "./vdoado/Admin/View\Tch\result.html"  on line 29 "&lt;h3&gt;共提交&lt;strong&gt;{res_max}&lt;/strong&gt;人&lt;/h3&gt;" unknown tag "res_max"
+
+[ 2016-10-16T20:35:39+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: Syntax Error in template "./vdoado/Admin/View\Tch\result.html"  on line 29 "&lt;h3&gt;共提交&lt;strong&gt;{res_max}&lt;/strong&gt;人&lt;/h3&gt;" unknown tag "res_max"
+
+[ 2016-10-16T20:35:41+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: Syntax Error in template "./vdoado/Admin/View\Tch\result.html"  on line 29 "&lt;h3&gt;共提交&lt;strong&gt;{res_max}&lt;/strong&gt;人&lt;/h3&gt;" unknown tag "res_max"
+
+[ 2016-10-16T20:35:49+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: Syntax Error in template "./vdoado/Admin/View\Tch\result.html"  on line 29 "&lt;h3&gt;共提交&lt;strong&gt;{res_max}&lt;/strong&gt;人&lt;/h3&gt;" unknown tag "res_max"
+
+[ 2016-10-16T20:37:04+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: Syntax Error in template "./vdoado/Admin/View\Tch\result.html"  on line 29 "&lt;h3&gt;共提交&lt;strong&gt;{res_max}&lt;/strong&gt;人&lt;/h3&gt;" unknown tag "res_max"
+

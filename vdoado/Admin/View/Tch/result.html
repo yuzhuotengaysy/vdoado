@@ -26,7 +26,7 @@
                         </a>
                     </div>
                     <div class="ibox-content">  
-                        <h3>共提交<strong>xxx</strong>人</h3>
+                        <h3>共提交<strong>{$res_max}</strong>人</h3>
                         <table class="table table-striped"> 
                             <thead>
                                 <tr>
@@ -37,21 +37,26 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                {if $res_max%2!=0}
+                                    {$res_max=$res_max+1}
+                                {/if}
                                 {assign var="i" value=0}
-                                {foreach from=$res_student item=value}
+                                {foreach from=$res_student item=value name=student}
                                 <tr>
                                     <td>{$res_student[$i++].student_name}</td>
                                     <td>
                                         <input type="text" value="1 2 3" readonly=true>
                                         <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
                                     </td>
-                                   
-                                    <td>{$res_student[$i++].student_name}</td>
+                                    <td>{$res_student[$i++].student_name}</td>   
                                     <td>
                                         <input type="text" value="1 2 3" readonly=true>
                                         <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
-                                    </td>
-                                   
+
+                                    </td>    
+                                    {if $smarty.foreach.student.index == $res_max/2 - 1}
+                                        {break}
+                                    {/if}
                                 </tr>
                                 {/foreach}
                             </tbody>
