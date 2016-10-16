@@ -23,7 +23,7 @@
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
                         {foreach $res as $key => $value}
-                        <h5>{$value.course_name}</h5>
+                            <h5>{$value.course_name}</h5>
                         {/foreach}
                     </div>
                     <div class="ibox-content">
@@ -49,7 +49,7 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <a class="btn btn-sm btn-primary pull-left m-t-n-xs" href="{$smarty.const.__MODULE__}/Tch/result">
+                                        <a class="btn btn-sm btn-primary pull-left m-t-n-xs" href="{$smarty.const.__MODULE__}/Tch/result/id/{I('get.id')}">
                                             <strong>查 看 结 果</strong>
                                         </a>
                                     </div>

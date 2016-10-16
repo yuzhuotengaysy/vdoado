@@ -3,8 +3,8 @@ namespace Admin\Controller;
 use Think\Controller;
 class TchController extends Controller {
     public function lesson(){
-    	$course_detail = D('course');	    //实例化
-    	$res = $course_detail  -> where('course_id = '.$_REQUEST["id"]) -> select();	//获得数据信息
+    	$course = D('course');	    //实例化
+    	$res = $course  -> where('course_id = '.$_REQUEST["id"]) -> select();	//获得数据信息
     	
     	//把数据assign到模板
     	$this -> assign('res', $res);
@@ -17,7 +17,7 @@ class TchController extends Controller {
     	$test    = D('test');
     	$student = D('student');
     	$ado     = D('ado');
-    	
+
     	$this -> display();
     }
 
