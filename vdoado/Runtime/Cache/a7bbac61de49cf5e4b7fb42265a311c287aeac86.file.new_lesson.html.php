@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-16 00:34:35
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-16 12:13:57
          compiled from "./vdoado/Admin/View\Tch\new_lesson.html" */ ?>
 <?php /*%%SmartyHeaderCode:1166558025a9bc74a84-14657433%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a7bbac61de49cf5e4b7fb42265a311c287aeac86' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\new_lesson.html',
-      1 => 1476545375,
+      1 => 1476591236,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_58025a9bd43b3',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_58025a9bd43b3')) {function content_58025a9bd43b3($_smarty_tpl) {?>
 <!DOCTYPE html>
@@ -52,10 +52,11 @@ style.min.css-v=4.0.0.css" rel="stylesheet">
                     <div class="ibox-content">
                         <div class="row">
                             <div class="col-sm-12 b-r">
-                                <form role="form">
+                                <form action="<?php echo @__SELF__;?>
+" method="post">
                                     <div class="form-group">
                                         <label>课程名称</label>
-                                        <input type="email" placeholder="请输入课程名称" class="form-control" style="width:30%">
+                                        <input type="test" placeholder="请输入课程名称" class="form-control" name="course_name" style="width:30%">
                                     </div>
                                     <div>
                                         <button class="btn btn-sm btn-primary pull-left m-t-n-xs" type="submit">

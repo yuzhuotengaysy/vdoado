@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-16 00:34:32
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-16 15:25:32
          compiled from "./vdoado/Admin/View\Index\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:1924758025a98e48c37-65010371%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2bb73a19e090fcd534e3fc357c5f6cc1c315ba23' => 
     array (
       0 => './vdoado/Admin/View\\Index\\index.html',
-      1 => 1476547146,
+      1 => 1476602730,
       2 => 'file',
     ),
   ),
@@ -15,17 +15,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_58025a9905a60',
   'variables' => 
   array (
     'res' => 0,
     'value' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_58025a9905a60',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58025a9905a60')) {function content_58025a9905a60($_smarty_tpl) {?><!DOCTYPE html>
-<html>
+<?php if ($_valid && !is_callable('content_58025a9905a60')) {function content_58025a9905a60($_smarty_tpl) {?><html>
 
 <head>
     <meta charset="utf-8">
@@ -77,7 +76,7 @@ $_smarty_tpl->tpl_vars['value']->_loop = true;
 ?>
                             <li>
                                 <a class="J_menuItem" href="<?php echo @__MODULE__;?>
-/Tch/lesson?id=<?php echo $_smarty_tpl->tpl_vars['value']->value['course_id'];?>
+/Tch/lesson/id/<?php echo $_smarty_tpl->tpl_vars['value']->value['course_id'];?>
 " data-index="0"><?php echo $_smarty_tpl->tpl_vars['value']->value['course_pubtime'];?>
 </a>
                             </li>

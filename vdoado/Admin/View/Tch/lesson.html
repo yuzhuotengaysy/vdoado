@@ -22,16 +22,18 @@
             <div class="col-sm-12">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
-                        <h5>试讲1</h5>
+                        {foreach $res as $key => $value}
+                        <h5>{$value.course_name}</h5>
+                        {/foreach}
                     </div>
                     <div class="ibox-content">
                         <div class="row">
                             <div class="col-sm-12 b-r">
-                                <form role="form">
+                                <form action="">
                                     <div class="form-group">
                                         <label>第一次练习地址</label>
                                          <div class="input-group">
-                                            <input id="text1" type="text" class="form-control" value="www.baidu.com"> 
+                                            <input id="text1" type="text" class="form-control" value="localhost/vdoado/index.php?id={I('get.id')}"> 
                                             <span class="input-group-btn"> 
                                                 <button type="button" class="btn btn-primary" onclick="copyit(this)">复 制</button> 
                                             </span>
@@ -40,7 +42,7 @@
                                     <div class="form-group">
                                         <label>第二次练习地址</label>
                                         <div class="input-group">
-                                            <input id="text2" type="text" class="form-control" value="www.163.com"> 
+                                            <input id="text2" type="text" class="form-control" value="localhost/vdoado/index.php?id={I('get.id')}"> 
                                             <span class="input-group-btn"> 
                                                 <button type="button" class="btn btn-primary" onclick="copyit(this)">复 制</button> 
                                             </span>

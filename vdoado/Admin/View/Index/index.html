@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -40,7 +39,7 @@
                         <ul class="nav nav-second-level">
                             {foreach $res as $key => $value}
                             <li>
-                                <a class="J_menuItem" href="{$smarty.const.__MODULE__}/Tch/lesson?id={$value.course_id}" data-index="0">{$value.course_pubtime}</a>
+                                <a class="J_menuItem" href="{$smarty.const.__MODULE__}/Tch/lesson/id/{$value.course_id}" data-index="0">{$value.course_pubtime}</a>
                             </li>
                             {/foreach}
                         </ul>
