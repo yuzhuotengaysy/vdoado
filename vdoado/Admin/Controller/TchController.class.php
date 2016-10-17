@@ -17,9 +17,8 @@ class TchController extends Controller {
     	$student = D('student');
     	$ado     = D('ado');
 
-    	$res_result = $result  -> where('result_id = '.$_GET["id"]) -> select();	//将课程id和结果id匹配
-    	$res_student = $student -> select();											//查询学生信息
-        $res_max = M('student')->Count();                  
+    	$res_result = $result  -> where('test_id = '.$_GET["id"]) -> select();	        //将练习id和结果id匹配
+        $res_max = M('result')->where('test_id = '.$_GET["id"])->count('distinct(student_id)');  	 //获取提交总人数                                     
     	//$res_student = $student -> where('student_id = '.$res_result[0]['result_id']);
         $this -> assign('res_max', $res_max);
     	$this -> assign('res_student', $res_student);
@@ -34,9 +33,8 @@ class TchController extends Controller {
         $student = D('student');
         $ado     = D('ado');
 
-        $res_result = $result  -> where('result_id = '.$_GET["id"]) -> select();    //将课程id和结果id匹配
-        $res_student = $student -> select();                                            //查询学生信息
-        $res_max = M('student')->Count();                  
+        $res_result = $result  -> where('test_id = '.$_GET["id"]) -> select();          //将练习id和结果id匹配
+        $res_max = M('result')->where('test_id = '.$_GET["id"])->count('distinct(student_id)');      //获取提交总人数                       
         //$res_student = $student -> where('student_id = '.$res_result[0]['result_id']);
         $this -> assign('res_max', $res_max);
         $this -> assign('res_student', $res_student);
