@@ -31,7 +31,7 @@
                                     <div class="form-group">
                                         <label>第一次练习地址</label>
                                          <div class="input-group">
-                                            <input id="text1" type="text" class="form-control" value="localhost/vdoado/index.php?id={I('get.id')}"> 
+                                            <input id="text1" type="text" class="form-control" value="localhost/vdoado/index.php?id={I('get.id')*2-1}"> 
                                             <span class="input-group-btn"> 
                                                 <button type="button" class="btn btn-primary" onclick="copyit(this)">复 制</button> 
                                             </span>
@@ -40,15 +40,18 @@
                                     <div class="form-group">
                                         <label>第二次练习地址</label>
                                         <div class="input-group">
-                                            <input id="text2" type="text" class="form-control" value="localhost/vdoado/index.php?id={I('get.id')}"> 
+                                            <input id="text2" type="text" class="form-control" value="localhost/vdoado/index.php?id={I('get.id')*2}"> 
                                             <span class="input-group-btn"> 
                                                 <button type="button" class="btn btn-primary" onclick="copyit(this)">复 制</button> 
                                             </span>
                                         </div>
                                     </div>
                                     <div>
-                                        <a class="btn btn-sm btn-primary pull-left m-t-n-xs" href="{$smarty.const.__MODULE__}/Tch/result/id/{I('get.id')}">
-                                            <strong>查 看 结 果</strong>
+                                        <a class="btn btn-sm btn-primary pull-left m-t-n-xs" href="{$smarty.const.__MODULE__}/Tch/result/id/{I('get.id')*2-1}">
+                                            <strong>查 看 结 果 一</strong>
+                                        </a>
+                                        <a class="btn btn-sm btn-primary pull-left m-t-n-xs" href="{$smarty.const.__MODULE__}/Tch/result/id/{I('get.id')*2}" style="margin-left:20px">
+                                            <strong>查 看 结 果 二</strong>
                                         </a>
                                     </div>
                                 </form>
