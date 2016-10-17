@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-16 23:13:49
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-17 09:15:02
          compiled from "./vdoado/Admin/View\Tch\result.html" */ ?>
 <?php /*%%SmartyHeaderCode:24758025be4a389f2-28489265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b13f3b0cbce23bcb7cc6492c1167b933dd4ea55' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\result.html',
-      1 => 1476630826,
+      1 => 1476666857,
       2 => 'file',
     ),
   ),
@@ -117,7 +117,7 @@ $_smarty_tpl->tpl_vars['value']->_loop = true;
                     <h4 class="modal-title">播放</h4>
                 </div>
                 <div class="modal-body">
-                    
+                    <video id="model_video" src="" controls muted></vdideo>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
@@ -137,16 +137,17 @@ plugins/peity/jquery.peity.min.js"></script>
 plugins/morris/raphael-2.1.0.min.js"></script>
     <script src="<?php echo @JS_URL;?>
 plugins/morris/morris.js"></script>
-    <script src="<?php echo @JS_URL;?>
-demo/morris-demo.min.js"></script>
+   
     <script src="<?php echo @JS_URL;?>
 content.min.js-v=1.0.0.js"></script>
     <script src="<?php echo @JS_URL;?>
 plugins/iCheck/icheck.min.js"></script>
+
     <script src="<?php echo @JS_URL;?>
-demo/peity-demo.min.js"></script>
+teacher.js"></script>
     <script type="text/javascript">
         /* 统计图 */
+$(document).ready(function(){
         new Morris.Bar({
             element: 'bar-chart',               //指向统计图ID
             barColors: ['#1ab394'],             //统计图颜色
@@ -171,6 +172,32 @@ demo/peity-demo.min.js"></script>
         $('.play_go').click(function(){
             $('#modal_play').modal();
         });
+        
+
+                  $.ajax({ //request an json object 
+                    url: "<?php echo U('Home/Index/getMedia');?>
+", 
+                    type: 'POST',
+                    dataType: 'json'
+                })
+                .done(function(data) { //get sources
+                    video = data['video'];
+                    audios = data['audios'];
+           // alert('1');
+                    $('#model_video').attr('src',video);
+                    console.log("success");
+                })
+                .fail(function() {
+                    console.log("error");
+                })
+                .always(function() {
+                    console.log("complete");
+                });
+
+         
+              
+        });
+        
     </script>
 </body>
 

@@ -1,0 +1,108 @@
+[ 2016-10-17T08:53:30+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2016-10-17T08:57:27+08:00 ] ::1 /vdoado/index.php/HOME/Index/getMedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-10-17T08:57:53+08:00 ] ::1 /vdoado/index.php/HOME/Index/getMedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-10-17T08:58:04+08:00 ] ::1 /vdoado/index.php/HOME/Index/getMedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-10-17T08:58:34+08:00 ] ::1 /vdoado/index.php/HOME/Index/getMedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-10-17T08:58:42+08:00 ] ::1 /vdoado/index.php/HOME/Index/getMedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-10-17T08:58:57+08:00 ] ::1 /vdoado/index.php/HOME/Index/getMedia.html
+ERR: 无法加载控制器:Index
+
+[ 2016-10-17T08:59:21+08:00 ] ::1 /vdoado/index.php/HOME/Index/getMedia.html
+ERR: 无法加载控制器:Index
+
+[ 2016-10-17T08:59:25+08:00 ] ::1 /vdoado/index.php/Home/Index/getMedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2016-10-17T08:59:56+08:00 ] ::1 /vdoado/index.php/Home/Index/getMedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2016-10-17T09:03:48+08:00 ] ::1 /vdoado/index.php/Home/Index/getMedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2016-10-17T09:13:41+08:00 ] ::1 /vdoado/index.php/Home/Index/getMedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2016-10-17T09:14:07+08:00 ] ::1 /vdoado/index.php/Home/Index/getMedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2016-10-17T09:14:50+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2016-10-17T09:15:03+08:00 ] ::1 /vdoado/index.php/Home/Index/getMedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+
