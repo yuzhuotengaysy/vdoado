@@ -32,3 +32,6 @@ ERR: 1054:Unknown column 'h' in 'where clause'
 ERR: 1054:Unknown column 'h' in 'where clause'
  [ SQL语句 ] : SELECT * FROM `result` WHERE ( result_id = h ) 
 
+[ 2016-10-17T11:36:13+08:00 ] ::1 /vdoado/index.php/Admin/Tch/result/id/1
+ERR: Syntax Error in template "./vdoado/Admin/View\Tch\result.html"  on line 156 "data: {id: id},"  - Unexpected ": ", expected one of: "}" , " "
+

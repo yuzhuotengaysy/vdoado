@@ -2,6 +2,7 @@
 namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
+    private $res;
     public function index(){
 
     	$this 
@@ -27,8 +28,11 @@ class IndexController extends Controller {
         }
 		$this -> ajaxReturn($data);
     }
-    public function getResult($adoDropd){
-    	
+    public function check($adoDropd){
+        $this.$res = $adoDropd;
+    }
+    public function getResult(){
+    	$this -> ajaxReturn($res);
     }
 
 }
