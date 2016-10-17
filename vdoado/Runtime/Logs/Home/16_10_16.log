@@ -746,3 +746,30 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+[ 2016-10-16T23:31:36+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2016-10-16T23:44:33+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2016-10-16T23:50:59+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 20 行.
+

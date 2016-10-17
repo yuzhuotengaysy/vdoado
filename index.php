@@ -31,7 +31,7 @@
 	define('A4C_URL','check.php');
 	
 	/* 引入框架核心 */
-	require './ThinkPHP/ThinkPHP.php';
+	require_once './ThinkPHP/ThinkPHP.php';
 
 
 	

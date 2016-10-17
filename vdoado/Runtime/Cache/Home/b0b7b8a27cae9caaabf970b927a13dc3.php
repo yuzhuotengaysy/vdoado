@@ -38,7 +38,7 @@
     <script src="<?php echo ($jsUrl); ?>script.js"></script>
     <script type="text/javascript">
     	$(document).ready(function() {
-    		getPath('<?php echo U('index/getMedia');?>','<?php echo U('index/check');?>');
+    		getPath('<?php echo U('index/getMedia');?>','<?php echo U('index/check');?>','<?php echo ($id); ?>');
     	});
     </script>
 </body>

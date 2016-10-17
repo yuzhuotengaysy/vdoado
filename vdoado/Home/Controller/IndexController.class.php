@@ -10,14 +10,21 @@ class IndexController extends Controller {
     	-> assign('adoUrl',$Think.ADO_URL)
     	-> assign('vdoUrl',$Think.VDO_URL)
     	-> assign('ajaxPath4Media',$Think.A4M_URL)
-    	-> assign('ajaxPath4Check',$Think.A4C_URL);
-
+        -> assign('ajaxPath4Check',$Think.A4C_URL)
+        -> assign('id',$_GET['id']);
         $this -> display();
     }
-    public function getMedia(){
+    public function getMedia($id){
+        $test = M('test');
+        $ado = D('ado');
+        $vdoRes = $test -> where('test_id = '.$id) -> select();
+        $adoRes = $ado -> where('test_id = '.$id) -> select();
+        // dump($vdoRes);
 		$data = array();
-		$data['video'] = $Think.VDO_URL.'test.mp4';
-		$data['audios'] = array($Think.ADO_URL.'1.ogg',$Think.ADO_URL.'2.ogg',$Think.ADO_URL.'3.ogg');
+        $data['video'] = $Think.VDO_URL.$vdoRes[0]['test_vdo_file'];
+        foreach ($adoRes as $key => $value) {
+            $data['audios'] []= $Think.ADO_URL.$value['ado_file'];
+        }
 		$this -> ajaxReturn($data);
     }
     public function check($adoDropd){

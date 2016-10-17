@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-17 09:15:02
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-17 09:27:17
          compiled from "./vdoado/Admin/View\Tch\result.html" */ ?>
 <?php /*%%SmartyHeaderCode:24758025be4a389f2-28489265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b13f3b0cbce23bcb7cc6492c1167b933dd4ea55' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\result.html',
-      1 => 1476666857,
+      1 => 1476667548,
       2 => 'file',
     ),
   ),
@@ -174,10 +174,17 @@ $(document).ready(function(){
         });
         
 
+
+         
+              
+        });
+        function getMedia(id){
+
                   $.ajax({ //request an json object 
                     url: "<?php echo U('Home/Index/getMedia');?>
 ", 
                     type: 'POST',
+                    data: id,
                     dataType: 'json'
                 })
                 .done(function(data) { //get sources
@@ -193,11 +200,7 @@ $(document).ready(function(){
                 .always(function() {
                     console.log("complete");
                 });
-
-         
-              
-        });
-        
+        }
     </script>
 </body>
 

@@ -1,6 +1,7 @@
 
-var ajaxPath4Media = ''; //insert ajaxUrl for media here
-var ajaxPath4Check = ''; //insert ajaxUrl for check here 
+var ajaxPath4Media; //insert ajaxUrl for media here
+var ajaxPath4Check; //insert ajaxUrl for check here 
+var testId;
 var adoRcr = 0;
 
 //vars for ajaxQuery
@@ -8,9 +9,10 @@ var audios = [];
 var adoDropd = [];
 var video = '';
 
-function getPath(a4m,a4c){
+function getPath(a4m,a4c,id){
     ajaxPath4Media = a4m; //insert ajaxUrl for media here
     ajaxPath4Check = a4c; //insert ajaxUrl for check here 
+    testId = id;
     init();
     
 }
@@ -48,13 +50,16 @@ function loadSrc() {
 
 function init() {
     $.ajax({ //request an json object 
-        url: ajaxPath4Media, //like this {"video":"filename1", "audios":["filename2","filename3","filename4"]}
+        url: ajaxPath4Media, //like this {"video":"file1Path", "audios":["filen2Path","filen3Path","file4Path"]}
         type: 'POST',
+        data: {
+            id: testId
+        },
         dataType: 'json'
     })
     .done(function(data) { //get sources
-        video = data['video'];
-        audios = data['audios'];
+        video = data['video'];                      //video source
+        audios = data['audios'];                    //audios source (array)
         loadSrc();
         console.log("success");
     })
@@ -64,6 +69,7 @@ function init() {
     .always(function() {
         console.log("complete");
     });
+
 
 
     $('.drop')
@@ -82,6 +88,7 @@ function init() {
     	.click(function() {
     		var $ado = $('.drop>.ado');
     		if(!$(this).hasClass('testPlay')){																		//if paused,play it
+                $('.vdoPlayer')[0].currentTime = 0; 
 		        $('.vdoPlayer')[0].play();																			//load vdoPlayer
 
 		        adoRcr = 0;
@@ -131,10 +138,15 @@ function init() {
 		    adoDropd[i] = parseInt($('.drop>.ado').eq(i).attr('id'));
 		}
         if(adoDropd.length){
+            var name = prompt('请输入你的姓名:');
         	$.ajax({
         		url: ajaxPath4Check,
         		type: 'POST',
-        		data: {adoDropd: adoDropd},
+        		data: {
+                    adoDropd: adoDropd,                 //音频
+                    name:name,                           //姓名
+                    id:testId
+                },
         	})
         	.done(function() {
         		console.log("success");

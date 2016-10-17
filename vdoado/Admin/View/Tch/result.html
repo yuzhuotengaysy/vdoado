@@ -124,9 +124,16 @@ $(document).ready(function(){
         });
         
 
+
+         
+              
+        });
+        function getMedia(id){
+
                   $.ajax({ //request an json object 
                     url: "{U('Home/Index/getMedia')}", 
                     type: 'POST',
+                    data: id,
                     dataType: 'json'
                 })
                 .done(function(data) { //get sources
@@ -142,11 +149,7 @@ $(document).ready(function(){
                 .always(function() {
                     console.log("complete");
                 });
-
-         
-              
-        });
-        
+        }
     </script>
 </body>
 
