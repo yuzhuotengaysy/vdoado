@@ -1,6 +1,6 @@
 
 var ajaxPath4Media; //insert ajaxUrl for media here
-var ajaxPath4Check; //insert ajaxUrl for check here 
+var ajaxPath4Res; //insert ajaxUrl for check here 
 var testId;
 var adoRcr = 0;
 
@@ -9,9 +9,9 @@ var audios = [];
 var adoDropd = [];
 var video = '';
 
-function getPath(a4m,a4c,id){
+function getPath(a4m,a4r,id){
     ajaxPath4Media = a4m; //insert ajaxUrl for media here
-    ajaxPath4Check = a4c; //insert ajaxUrl for check here 
+    ajaxPath4Res = a4r; //insert ajaxUrl for check here 
     testId = id;
     init();
     
@@ -140,7 +140,7 @@ function init() {
         if(adoDropd.length){
             var name = prompt('请输入你的姓名:');
         	$.ajax({
-        		url: ajaxPath4Check,
+        		url: ajaxPath4Res,
         		type: 'POST',
         		data: {
                     adoDropd: adoDropd,                 //音频

@@ -75,7 +75,8 @@
                     <h4 class="modal-title">播放</h4>
                 </div>
                 <div class="modal-body">
-                    <video id="model_video" src="" controls muted></vdideo>
+                    <video id="modal_video" src="" controls muted></video>
+                    <audio id="modal_audio" src="" ></audio>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
@@ -120,17 +121,8 @@ $(document).ready(function(){
 
         /* 模态框 */
         $('.play_go').click(function(){
-            $('#modal_play').modal();
-        });
-        
-
-
-         
-              
-        });
-        function getMedia(id){
-
-                  $.ajax({ //request an json object 
+            id = ?
+            $.ajax({ //request an json object 
                     url: "{U('Home/Index/getMedia')}", 
                     type: 'POST',
                     data: id,
@@ -139,8 +131,12 @@ $(document).ready(function(){
                 .done(function(data) { //get sources
                     video = data['video'];
                     audios = data['audios'];
-           // alert('1');
-                    $('#model_video').attr('src',video);
+                    $('#modal_video').attr('src',video);
+                     $('#modal_video')[0].currentTime = 0; 
+                     $('#modal_video')[0].pause();                                                                          //load vdoPlayer
+
+                     $('#modal_play').modal();
+            
                     console.log("success");
                 })
                 .fail(function() {
@@ -149,7 +145,64 @@ $(document).ready(function(){
                 .always(function() {
                     console.log("complete");
                 });
-        }
+
+                $.ajax({
+                    url: "{U('Home/Index/getMedia')}",
+                    type: 'POST',
+                    dataType: 'json',
+                    data: {id: id},
+                })
+                .done(function() {
+
+                    adoRcr = 0;
+                    if($ado.length){                                                                                    //if has dropd
+                        for (var i = 0; i < $ado.length; i++) {
+                            adoDropd[i] = parseInt($ado.eq(i).attr('id'));
+                        }
+
+                        $('#'+adoDropd[adoRcr]).children('i').removeClass('glyphicon-play').addClass('glyphicon-stop');     //play first 
+                        $('.adoPlayer').attr({
+                            src:  audios[adoDropd[adoRcr++]]
+                        })[0].play();
+
+
+                        $('.adoPlayer')[0].onended = function() {                                                   //play next
+                            if (adoRcr >= adoDropd.length) {                                                        //dropd ado ended
+                                $ado.last().children('i').addClass('glyphicon-play').removeClass('glyphicon-stop');
+                                $('.vdoPlayer')[0].pause();
+                                $('.vdoPlayer')[0].currentTime = 0;
+                                $('.adoPlayer')[0].pause();
+                                $('.adoPlayer')[0].onended = null;
+                                $('.test').removeClass('testPlay');
+                            } else {                                                                                //dropd ado playing
+                                $('#'+adoDropd[adoRcr-1]).children('i').addClass('glyphicon-play').removeClass('glyphicon-stop');
+                                $('#'+adoDropd[adoRcr]).children('i').removeClass('glyphicon-play').addClass('glyphicon-stop');
+                                $(this).attr({
+                                    src: audios[adoDropd[adoRcr++]]
+                                })[0].play();
+                            }
+                        };
+                    }
+                    console.log("success");
+                })
+                .fail(function() {
+                    console.log("error");
+                })
+                .always(function() {
+                    console.log("complete");
+                });
+                
+        });
+        
+
+
+         
+              
+
+             
+
+
+        });
     </script>
 </body>
 

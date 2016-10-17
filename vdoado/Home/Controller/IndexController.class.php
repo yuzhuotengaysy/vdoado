@@ -27,8 +27,8 @@ class IndexController extends Controller {
         }
 		$this -> ajaxReturn($data);
     }
-    public function check($adoDropd){
-    	dump($adoDropd);
+    public function getResult($adoDropd){
+    	
     }
 
 }
