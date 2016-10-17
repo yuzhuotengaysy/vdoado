@@ -123,6 +123,7 @@ $(document).ready(function(){
         $('.play_go').click(function(){
             id = ?
             $.ajax({ //request an json object 
+
                     url: "{U('Home/Index/getMedia')}", 
                     type: 'POST',
                     data: id,
