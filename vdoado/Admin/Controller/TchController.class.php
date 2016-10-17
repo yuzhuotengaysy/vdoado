@@ -21,7 +21,8 @@ class TchController extends Controller {
         $res_max = M('result')->where('test_id = '.$_GET["id"])->count('distinct(student_id)');  	 //获取提交总人数                                     
     	//$res_student = $student -> where('student_id = '.$res_result[0]['result_id']);
         $this -> assign('res_max', $res_max);
-    	$this -> assign('res_student', $res_student);
+        $this -> assign('res_student', $res_student);
+        $this -> assign('id', $_GET['id']);
 
     	$this -> display();
     }
