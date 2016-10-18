@@ -17,12 +17,19 @@ class TchController extends Controller {
     	$student = D('student');
     	$ado     = D('ado');
 
-    	$res_result = $result  -> where('test_id = '.$_GET["id"]) -> select();	        //将练习id和结果id匹配
-        $res_max = M('result')->where('test_id = '.$_GET["id"])->count('distinct(student_id)');  	 //获取提交总人数                                     
-    	//$res_student = $student -> where('student_id = '.$res_result[0]['result_id']);
+        $res_max = M('result')->where('test_id = '.$_GET["id"])->count('distinct(student_id)');  	 //获取提交总人数   
+
+        $stu = $result -> distinct(true) -> where('test_id = 1') -> getField('student_id',true);
+         // dump($stu);
+        for($i = 0; $i < count($stu); $i++){
+            $res_stu[$i] []= $student -> where('student_id = "'.$stu[$i].'"') ->getField('student_name');
+            $res_stu[$i] []= D('result') -> where('student_id = "'.$stu[$i].'"') ->getField('ado_id',true);
+        }
+        dump($res_stu);
+        
+        dump($res_stu[0][0]);
         $this -> assign('res_max', $res_max);
-        $this -> assign('res_student', $res_student);
-        $this -> assign('id', $_GET['id']);
+    	$this -> assign('res_stu', $res_stu);
 
     	$this -> display();
     }
@@ -33,12 +40,17 @@ class TchController extends Controller {
         $test    = D('test');
         $student = D('student');
         $ado     = D('ado');
+  
+        $res_max = M('result')->where('test_id = '.$_GET["id"])->count('distinct(student_id)');      //获取提交总人数   
+  
+        $res = M('result')-> join('LEFT join student on result.student_id = student.student_id ')   //将练习id和结果id匹配(获取student_name和ado_id)
+                          -> field('student.student_name, result.ado_id')
+                          -> where('result.test_id = '.$_GET["id"])
+                          -> select();
 
-        $res_result = $result  -> where('test_id = '.$_GET["id"]) -> select();          //将练习id和结果id匹配
-        $res_max = M('result')->where('test_id = '.$_GET["id"])->count('distinct(student_id)');      //获取提交总人数                       
         //$res_student = $student -> where('student_id = '.$res_result[0]['result_id']);
         $this -> assign('res_max', $res_max);
-        $this -> assign('res_student', $res_student);
+        $this -> assign('res', $res);
 
         $this -> display();
     }

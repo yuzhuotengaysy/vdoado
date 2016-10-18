@@ -418,83 +418,14 @@ NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controll
 NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 26 行.
 NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 26 行.
 
-[ 2016-10-17T11:34:35+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
+[ 2016-10-17T19:55:25+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001758s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.002325s ]
-SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0190s ]
-SQL: SHOW COLUMNS FROM `ado` [ RunTime:0.0176s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ado` [ RunTime:0.0030s ]
 ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
  [ SQL语句 ] : SELECT * FROM `test` WHERE ( test_id =  ) 
 ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
  [ SQL语句 ] : SELECT * FROM `test` WHERE ( test_id =  ) 
-
-[ 2016-10-17T11:34:42+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
-ERR: 参数错误或者未定义:id
-
-[ 2016-10-17T11:35:35+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.002668s ]
-SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0185s ]
-SQL: SHOW COLUMNS FROM `ado` [ RunTime:0.0058s ]
-ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'index/getmedia.html )' at line 1
- [ SQL语句 ] : SELECT * FROM `test` WHERE ( test_id = 1/home/index/getmedia.html ) 
-ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'index/getmedia.html )' at line 1
- [ SQL语句 ] : SELECT * FROM `test` WHERE ( test_id = 1/home/index/getmedia.html ) 
-
-[ 2016-10-17T11:35:46+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.002103s ]
-SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0063s ]
-SQL: SHOW COLUMNS FROM `ado` [ RunTime:0.0053s ]
-SQL: SELECT * FROM `test` WHERE ( test_id = 1 )  [ RunTime:0.0009s ]
-SQL: SELECT * FROM `ado` WHERE ( test_id = 1 )  [ RunTime:0.0004s ]
-NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 25 行.
-NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 27 行.
-NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 27 行.
-NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 27 行.
-
-[ 2016-10-17T11:35:53+08:00 ] ::1 /vdoado/index.php/home/index/getmedia.html
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
-SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0062s ]
-SQL: SHOW COLUMNS FROM `ado` [ RunTime:0.0050s ]
-ERR: 1054:Unknown column 'admin' in 'where clause'
- [ SQL语句 ] : SELECT * FROM `test` WHERE ( test_id = 1/admin ) 
-ERR: 1054:Unknown column 'admin' in 'where clause'
- [ SQL语句 ] : SELECT * FROM `test` WHERE ( test_id = 1/admin ) 
-
-[ 2016-10-17T11:37:09+08:00 ] ::1 /vdoado/index.php/Home/Index/getMedia.html
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
-ERR: 参数错误或者未定义:id
-
-[ 2016-10-17T11:37:09+08:00 ] ::1 /vdoado/index.php/Home/Index/getResult.html
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
-NOTIC: [8] Undefined variable: res D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 35 行.
-
-[ 2016-10-17T11:38:08+08:00 ] ::1 /vdoado/index.php/Home/Index/getMedia.html
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
-SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0046s ]
-SQL: SHOW COLUMNS FROM `ado` [ RunTime:0.0145s ]
-SQL: SELECT * FROM `test` WHERE ( test_id = 1 )  [ RunTime:0.0013s ]
-SQL: SELECT * FROM `ado` WHERE ( test_id = 1 )  [ RunTime:0.0014s ]
-NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 25 行.
-NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 27 行.
-NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 27 行.
-NOTIC: [8] Undefined variable: Think D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 27 行.
-
-[ 2016-10-17T11:38:08+08:00 ] ::1 /vdoado/index.php/Home/Index/getResult.html
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
-NOTIC: [8] Undefined variable: res D:\xampp\htdocs\vdoado\vdoado\Home\Controller\IndexController.class.php 第 35 行.
 
