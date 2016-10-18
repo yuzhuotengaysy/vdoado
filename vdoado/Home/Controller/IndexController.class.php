@@ -49,5 +49,4 @@ class IndexController extends Controller {
     public function getResult(){
     	$this -> ajaxReturn($res);
     }
-
 }
