@@ -31,7 +31,7 @@
                                     <div class="form-group">
                                         <label>第一次练习地址</label>
                                          <div class="input-group">
-                                            <input id="text1" type="text" class="form-control" value="localhost/vdoado/index.php?id={I('get.id')*2-1}"> 
+                                            <input id="text1" type="text" class="form-control" value="{$smarty.const.SITE_URL}?id={I('get.id')*2-1}"> 
                                             <span class="input-group-btn"> 
                                                 <button type="button" class="btn btn-primary" onclick="copyit(this)">复 制</button> 
                                             </span>
@@ -40,7 +40,7 @@
                                     <div class="form-group">
                                         <label>第二次练习地址</label>
                                         <div class="input-group">
-                                            <input id="text2" type="text" class="form-control" value="localhost/vdoado/index.php?id={I('get.id')*2}"> 
+                                            <input id="text2" type="text" class="form-control" value="{$smarty.const.SITE_URL}?id={I('get.id')*2}"> 
                                             <span class="input-group-btn"> 
                                                 <button type="button" class="btn btn-primary" onclick="copyit(this)">复 制</button> 
                                             </span>
