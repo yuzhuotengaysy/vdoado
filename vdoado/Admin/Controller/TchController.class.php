@@ -27,7 +27,8 @@ class TchController extends Controller {
         }
         
         $this -> assign('res_max', $res_max);
-    	$this -> assign('res_stu', $res_stu);
+        $this -> assign('res_stu', $res_stu);
+        $this -> assign('id', $_GET["id"]);
 
     	$this -> display();
     }

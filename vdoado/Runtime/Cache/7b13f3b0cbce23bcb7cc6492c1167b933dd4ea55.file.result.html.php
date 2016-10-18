@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-18 10:32:09
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-18 11:22:54
          compiled from "./vdoado/Admin/View\Tch\result.html" */ ?>
 <?php /*%%SmartyHeaderCode:24758025be4a389f2-28489265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b13f3b0cbce23bcb7cc6492c1167b933dd4ea55' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\result.html',
-      1 => 1476757881,
+      1 => 1476760969,
       2 => 'file',
     ),
   ),
@@ -23,6 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'res_stu' => 0,
     'i' => 0,
     'j' => 0,
+    'id' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -133,7 +134,9 @@ $_smarty_tpl->tpl_vars['val']->_loop = true;
                     <h4 class="modal-title">播放</h4>
                 </div>
                 <div class="modal-body">
-                    <video id="model_video" src="" controls muted></vdideo>
+                    <p id="modal_test"></p>
+                    <video id="modal_video" src="" muted></video>
+                    <audio id="modal_audio" src=""></audio>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
@@ -164,6 +167,7 @@ teacher.js"></script>
     <script type="text/javascript">
         /* 统计图 */
 $(document).ready(function(){
+
         new Morris.Bar({
             element: 'bar-chart',               //指向统计图ID
             barColors: ['#1ab394'],             //统计图颜色
@@ -184,16 +188,91 @@ $(document).ready(function(){
             labels: ['y']
         });
 
+        var res = <?php echo json_encode($_smarty_tpl->tpl_vars['res_stu']->value);?>
+;
         /* 模态框 */
-        $('.play_go').click(function(){
-            $('#modal_play').modal();
+         $('.play_go').click(function(){
+            var id = <?php echo $_smarty_tpl->tpl_vars['id']->value;?>
+;
+            var video;
+            var audios = []; 
+            var which = $('.play_go').index(this);
+            $.ajax({ //request an json object 
+                    url: "<?php echo U('Home/Index/getMedia');?>
+", 
+                    type: 'POST',
+                    data: {
+                        id:id
+                    },
+                    dataType: 'json'
+                })
+                .done(function(data) { //get sources
+                    video = data['video'];
+                    audios = data['audios'];
+                    sort = res[which][1];
+                    $('#modal_video').attr('src',video);
+                    $('#modal_video')[0].currentTime = 0; 
+                    $('#modal_video')[0].pause();                                                                          //load vdoPlayer
+                    var adoRcr = 0;
+                    $('#modal_audio').attr({
+                        src:  audios[sort[adoRcr++]-1]
+                    })[0].play();
+                    $('#modal_test').text(audios[sort[adoRcr-1]-1]);
+
+                    $('#modal_audio')[0].onended = function() {                                                   //play next
+                        if (adoRcr >= sort.length) {                                                        //dropd ado ended
+                            $('#modal_video')[0].pause();
+                            $('#modal_video')[0].currentTime = 0;
+                            $('#modal_audio')[0].pause();
+                            $('#modal_audio')[0].onended = null;
+                        } else {                                                                                //dropd ado playing
+                            $(this).attr({
+                                src: audios[sort[adoRcr++]-1]
+                            })[0].play();
+                            
+                    $('#modal_test').text(audios[sort[adoRcr-1]-1]);
+                        }
+                    };
+                    $('#modal_play').modal();
+            
+                    console.log("success");
+                })
+                .fail(function() {
+                    console.log("error");
+                })
+                .always(function() {
+                    console.log("complete");
+                });
+
+
+                $.ajax({
+                    url: "<?php echo U('Home/Index/getResult');?>
+",
+                    type: 'POST',
+                    dataType: 'json',
+                    data: {
+                        id: id
+                    },
+                })
+                .done(function(data) {
+
+                   
+                    console.log("success");
+                })
+                .fail(function() {
+                    console.log("error");
+                })
+                .always(function() {
+                    console.log("complete");
+                });
+                
         });
         
 
 
          
               
-        });
+        })
         function getMedia(id){
                   $.ajax({ //request an json object 
                     url: "<?php echo U('Home/Index/getMedia');?>
