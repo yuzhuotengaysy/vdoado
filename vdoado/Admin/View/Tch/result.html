@@ -44,13 +44,13 @@
                                     {if $smarty.foreach.result.index -1 < $res_max/2 }
                                         <td>{$res_stu[$i][0]}</td>
                                         <td>
-                                            <input type="text" value="{$res_stu[$i][]}" readonly=true>
+                                            <input type="text" value="{$res_stu[$i++][0]}" readonly=true>
                                             <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
                                         </td>
                                         {if $smarty.foreach.result.index <= $res_max/2-1}
                                             <td>{$res_stu[$i][0]}</td>
                                             <td>
-                                                <input type="text" value="{$res_stu[$i++]}" readonly=true>
+                                                <input type="text" value="{$res_stu[$i++][0]}" readonly=true>
                                                 <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
                                             </td>
                                         {/if}
