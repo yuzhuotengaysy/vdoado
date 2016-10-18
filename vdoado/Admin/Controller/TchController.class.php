@@ -17,41 +17,29 @@ class TchController extends Controller {
     	$student = D('student');
     	$ado     = D('ado');
 
-        $res_max = M('result')->where('test_id = '.$_GET["id"])->count('distinct(student_id)');  	 //获取提交总人数   
+        $res_max = M('result')->where('test_id = '.$_GET["id"])->count('distinct(student_id)');     //获取提交总人数   
 
-        $stu = $result -> distinct(true) -> where('test_id = 1') -> getField('student_id',true);
-         // dump($stu);
-        for($i = 0; $i < count($stu); $i++){
+        $stu = $result -> distinct(true) -> where('test_id = '.$_GET["id"]) -> getField('student_id',true);     //获取学生列表
+        for($i = 0; $i < count($stu); $i++){                                                         //将学生名字和学生提交的ado_id进行匹配
             $res_stu[$i] []= $student -> where('student_id = "'.$stu[$i].'"') ->getField('student_name');
-            $res_stu[$i] []= D('result') -> where('student_id = "'.$stu[$i].'"') ->getField('ado_id',true);
+            $res_stu[$i] []= $result -> where('student_id = "'.$stu[$i].'"') ->getField('ado_id',true);
+        }
+
+        $ado =  $ado -> where('test_id = '.$_GET["id"])->  getField('ado_id',true);                  //将练习id和练习对应的ado进行匹配
+        for($i = 1; $i <= count($ado); $i++){                                                        //获得统计图数据
+            $map['test_id'] = $_GET["id"];
+            $map['ado_id'] = $i;      
+            $temp['x'] = $i;
+            $temp['y'] =  M('result')->where($map)->count('ado_id'); 
+            $res_ado []= $temp;                                          
         }
         
         $this -> assign('res_max', $res_max);
         $this -> assign('res_stu', $res_stu);
+        $this -> assign('res_ado', $res_ado);
         $this -> assign('id', $_GET["id"]);
 
     	$this -> display();
-    }
-
-    public function result2(){
-        $result  = D('result');     //实例化
-        $course  = D('course');     
-        $test    = D('test');
-        $student = D('student');
-        $ado     = D('ado');
-  
-        $res_max = M('result')->where('test_id = '.$_GET["id"])->count('distinct(student_id)');      //获取提交总人数   
-  
-        $res = M('result')-> join('LEFT join student on result.student_id = student.student_id ')   //将练习id和结果id匹配(获取student_name和ado_id)
-                          -> field('student.student_name, result.ado_id')
-                          -> where('result.test_id = '.$_GET["id"])
-                          -> select();
-
-        //$res_student = $student -> where('student_id = '.$res_result[0]['result_id']);
-        $this -> assign('res_max', $res_max);
-        $this -> assign('res', $res);
-
-        $this -> display();
     }
 
     public function new_lesson(){

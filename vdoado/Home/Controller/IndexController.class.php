@@ -32,7 +32,7 @@ class IndexController extends Controller {
         if($stuId == NULL){
             $data = array('student_name' => $name);
             D('student') -> add($data);
-            $stuId = D('student') -> where('student_name='.$name) -> getField('student_id');
+            $stuId = D('student') -> where('student_name="'.$name.'"') -> getField('student_id');
         }
         $result = array();
         for($i = 0; $i < count($adoDropd); $i++){

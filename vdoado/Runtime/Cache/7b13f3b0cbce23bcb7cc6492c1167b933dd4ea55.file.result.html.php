@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-18 11:22:54
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-18 12:09:02
          compiled from "./vdoado/Admin/View\Tch\result.html" */ ?>
 <?php /*%%SmartyHeaderCode:24758025be4a389f2-28489265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b13f3b0cbce23bcb7cc6492c1167b933dd4ea55' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\result.html',
-      1 => 1476760969,
+      1 => 1476763737,
       2 => 'file',
     ),
   ),
@@ -23,6 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'res_stu' => 0,
     'i' => 0,
     'j' => 0,
+    'res_ado' => 0,
     'id' => 0,
   ),
   'has_nocache_code' => false,
@@ -166,106 +167,95 @@ plugins/iCheck/icheck.min.js"></script>
 teacher.js"></script>
     <script type="text/javascript">
         /* 统计图 */
-$(document).ready(function(){
+        $(document).ready(function(){
 
-        new Morris.Bar({
-            element: 'bar-chart',               //指向统计图ID
-            barColors: ['#1ab394'],             //统计图颜色
-            data: [                             //数据
-                { x: '1', y: 100},
-                { x: '2', y: 75},
-                { x: '3', y: 50},
-                { x: '4', y: 75},
-                { x: '5', y: 50},
-                { x: '6', y: 75},
-                { x: '7', y: 100},
-                { x: '8', y: 22},
-                { x: '9', y: 66},
-                { x: '10', y: 44}
-            ],
-            xkey: 'x',                          //x轴
-            ykeys: ['y'],                       //y轴
-            labels: ['y']
-        });
+            new Morris.Bar({
+                element: 'bar-chart',               //指向统计图ID
+                barColors: ['#1ab394'],             //统计图颜色
+                data: <?php echo json_encode($_smarty_tpl->tpl_vars['res_ado']->value);?>
+,      //数据
+                xkey: 'x',                          //x轴
+                ykeys: ['y'],                       //y轴
+                labels: ['y']
+            });
 
-        var res = <?php echo json_encode($_smarty_tpl->tpl_vars['res_stu']->value);?>
+            var res = <?php echo json_encode($_smarty_tpl->tpl_vars['res_stu']->value);?>
 ;
-        /* 模态框 */
-         $('.play_go').click(function(){
-            var id = <?php echo $_smarty_tpl->tpl_vars['id']->value;?>
+            /* 模态框 */
+            $('.play_go').click(function(){
+                var id = <?php echo $_smarty_tpl->tpl_vars['id']->value;?>
 ;
-            var video;
-            var audios = []; 
-            var which = $('.play_go').index(this);
-            $.ajax({ //request an json object 
-                    url: "<?php echo U('Home/Index/getMedia');?>
+                var video;
+                var audios = []; 
+                var which = $('.play_go').index(this);
+                $.ajax({ //request an json object 
+                        url: "<?php echo U('Home/Index/getMedia');?>
 ", 
-                    type: 'POST',
-                    data: {
-                        id:id
-                    },
-                    dataType: 'json'
-                })
-                .done(function(data) { //get sources
-                    video = data['video'];
-                    audios = data['audios'];
-                    sort = res[which][1];
-                    $('#modal_video').attr('src',video);
-                    $('#modal_video')[0].currentTime = 0; 
-                    $('#modal_video')[0].pause();                                                                          //load vdoPlayer
-                    var adoRcr = 0;
-                    $('#modal_audio').attr({
-                        src:  audios[sort[adoRcr++]-1]
-                    })[0].play();
-                    $('#modal_test').text(audios[sort[adoRcr-1]-1]);
+                        type: 'POST',
+                        data: {
+                            id:id
+                        },
+                        dataType: 'json'
+                    })
+                    .done(function(data) { //get sources
+                        video = data['video'];
+                        audios = data['audios'];
+                        sort = res[which][1];
+                        $('#modal_video').attr('src',video);
+                        $('#modal_video')[0].currentTime = 0; 
+                        $('#modal_video')[0].play();                                                                          //load vdoPlayer
+                        var adoRcr = 0;
+                        $('#modal_audio').attr({
+                            src:  audios[sort[adoRcr++]-1]
+                        })[0].play();
+                        $('#modal_test').text(audios[sort[adoRcr-1]-1]);
 
-                    $('#modal_audio')[0].onended = function() {                                                   //play next
-                        if (adoRcr >= sort.length) {                                                        //dropd ado ended
-                            $('#modal_video')[0].pause();
-                            $('#modal_video')[0].currentTime = 0;
-                            $('#modal_audio')[0].pause();
-                            $('#modal_audio')[0].onended = null;
-                        } else {                                                                                //dropd ado playing
-                            $(this).attr({
-                                src: audios[sort[adoRcr++]-1]
-                            })[0].play();
-                            
-                    $('#modal_test').text(audios[sort[adoRcr-1]-1]);
-                        }
-                    };
-                    $('#modal_play').modal();
-            
-                    console.log("success");
-                })
-                .fail(function() {
-                    console.log("error");
-                })
-                .always(function() {
-                    console.log("complete");
-                });
+                        $('#modal_audio')[0].onended = function() {                                                   //play next
+                            if (adoRcr >= sort.length) {                                                        //dropd ado ended
+                                $('#modal_video')[0].pause();
+                                $('#modal_video')[0].currentTime = 0;
+                                $('#modal_audio')[0].pause();
+                                $('#modal_audio')[0].onended = null;
+                            } else {                                                                                //dropd ado playing
+                                $(this).attr({
+                                    src: audios[sort[adoRcr++]-1]
+                                })[0].play();
 
-
-                $.ajax({
-                    url: "<?php echo U('Home/Index/getResult');?>
-",
-                    type: 'POST',
-                    dataType: 'json',
-                    data: {
-                        id: id
-                    },
-                })
-                .done(function(data) {
-
-                   
-                    console.log("success");
-                })
-                .fail(function() {
-                    console.log("error");
-                })
-                .always(function() {
-                    console.log("complete");
-                });
+                        $('#modal_test').text(audios[sort[adoRcr-1]-1]);
+                            }
+                        };
+                        $('#modal_play').modal();
                 
+                        console.log("success");
+                    })
+                    .fail(function() {
+                        console.log("error");
+                    })
+                    .always(function() {
+                        console.log("complete");
+                    });
+
+
+                    $.ajax({
+                        url: "<?php echo U('Home/Index/getResult');?>
+",
+                        type: 'POST',
+                        dataType: 'json',
+                        data: {
+                            id: id
+                        },
+                    })
+                    .done(function(data) {
+
+                       
+                        console.log("success");
+                    })
+                    .fail(function() {
+                        console.log("error");
+                    })
+                    .always(function() {
+                        console.log("complete");
+                    });         
         });
         
 
