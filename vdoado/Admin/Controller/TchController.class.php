@@ -25,9 +25,7 @@ class TchController extends Controller {
             $res_stu[$i] []= $student -> where('student_id = "'.$stu[$i].'"') ->getField('student_name');
             $res_stu[$i] []= D('result') -> where('student_id = "'.$stu[$i].'"') ->getField('ado_id',true);
         }
-        dump($res_stu);
         
-        dump($res_stu[0][0]);
         $this -> assign('res_max', $res_max);
     	$this -> assign('res_stu', $res_stu);
 

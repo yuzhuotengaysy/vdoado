@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-18 10:07:46
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-18 10:32:09
          compiled from "./vdoado/Admin/View\Tch\result.html" */ ?>
 <?php /*%%SmartyHeaderCode:24758025be4a389f2-28489265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b13f3b0cbce23bcb7cc6492c1167b933dd4ea55' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\result.html',
-      1 => 1476756463,
+      1 => 1476757881,
       2 => 'file',
     ),
   ),
@@ -22,6 +22,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'res_max' => 0,
     'res_stu' => 0,
     'i' => 0,
+    'j' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -71,9 +72,8 @@ style.css" rel="stylesheet">
                                 </tr>
                             </thead>
                             <tbody> 
-                                <?php echo $_smarty_tpl->tpl_vars['res_stu']->value[0][0];?>
-
                                 <?php $_smarty_tpl->tpl_vars["i"] = new Smarty_variable(0, null, 0);?>
+                                <?php $_smarty_tpl->tpl_vars["j"] = new Smarty_variable(0, null, 0);?>
                                 <?php  $_smarty_tpl->tpl_vars['value'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['value']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['res_stu']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
  $_smarty_tpl->tpl_vars['smarty']->value['foreach']['result']['index']=-1;
@@ -82,23 +82,35 @@ $_smarty_tpl->tpl_vars['value']->_loop = true;
  $_smarty_tpl->tpl_vars['smarty']->value['foreach']['result']['index']++;
 ?>
                                 <tr>
-                                    <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['result']['index']-1<$_smarty_tpl->tpl_vars['res_max']->value/2){?>
+                                    <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['result']['index']<$_smarty_tpl->tpl_vars['res_max']->value/2){?>
                                         <td><?php echo $_smarty_tpl->tpl_vars['res_stu']->value[$_smarty_tpl->tpl_vars['i']->value][0];?>
 </td>
                                         <td>
-                                            <input type="text" value="<?php echo $_smarty_tpl->tpl_vars['res_stu']->value[$_smarty_tpl->tpl_vars['i']->value++];?>
-" readonly=true>
+                                            <?php $_smarty_tpl->tpl_vars['j'] = new Smarty_variable(0, null, 0);?>
+                                            <input type="text" value="<?php  $_smarty_tpl->tpl_vars['val'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['val']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['res_stu']->value[$_smarty_tpl->tpl_vars['i']->value]; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['val']->key => $_smarty_tpl->tpl_vars['val']->value){
+$_smarty_tpl->tpl_vars['val']->_loop = true;
+?><?php echo $_smarty_tpl->tpl_vars['res_stu']->value[$_smarty_tpl->tpl_vars['i']->value][1][$_smarty_tpl->tpl_vars['j']->value];?>
+<?php $_smarty_tpl->tpl_vars['j'] = new Smarty_variable($_smarty_tpl->tpl_vars['j']->value+1, null, 0);?><?php } ?>" readonly=true>
                                             <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
                                         </td>
+                                        <?php $_smarty_tpl->tpl_vars['i'] = new Smarty_variable($_smarty_tpl->tpl_vars['i']->value+1, null, 0);?>
                                         <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['result']['index']<=$_smarty_tpl->tpl_vars['res_max']->value/2-1){?>
                                             <td><?php echo $_smarty_tpl->tpl_vars['res_stu']->value[$_smarty_tpl->tpl_vars['i']->value][0];?>
 </td>
                                             <td>
-                                                <input type="text" value="<?php echo $_smarty_tpl->tpl_vars['res_stu']->value[$_smarty_tpl->tpl_vars['i']->value++];?>
-" readonly=true>
+                                                <?php $_smarty_tpl->tpl_vars['j'] = new Smarty_variable(0, null, 0);?>
+                                                <input type="text" value="<?php  $_smarty_tpl->tpl_vars['val'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['val']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['res_stu']->value[$_smarty_tpl->tpl_vars['i']->value]; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['val']->key => $_smarty_tpl->tpl_vars['val']->value){
+$_smarty_tpl->tpl_vars['val']->_loop = true;
+?><?php echo $_smarty_tpl->tpl_vars['res_stu']->value[$_smarty_tpl->tpl_vars['i']->value][1][$_smarty_tpl->tpl_vars['j']->value];?>
+<?php $_smarty_tpl->tpl_vars['j'] = new Smarty_variable($_smarty_tpl->tpl_vars['j']->value+1, null, 0);?><?php } ?>" readonly=true>
                                                 <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
                                             </td>
                                         <?php }?>
+                                        <?php $_smarty_tpl->tpl_vars['i'] = new Smarty_variable($_smarty_tpl->tpl_vars['i']->value+1, null, 0);?>
                                     <?php }?>                   
                                 </tr>                           
                                 <?php } ?>
