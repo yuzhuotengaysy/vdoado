@@ -19,7 +19,7 @@ function getPath(a4m,a4c,id){
 function loadSrc() {
     for (var i in audios) { //create audio players
     	var j = parseInt(i)+1;
-        $('.drag').append('<div id="' + i + '" class="text-center ado">' + j +'<i class="glyphicon glyphicon-play"></i>' + '<a>x</a></div>')
+        $('.drag').append('<div id="' + j + '" class="text-center ado">' + j +'<i class="glyphicon glyphicon-play"></i>' + '<a>x</a></div>')
     }
     $('.vdoPlayer').attr({ //setup video player
         src: video
@@ -138,17 +138,21 @@ function init() {
 		    adoDropd[i] = parseInt($('.drop>.ado').eq(i).attr('id'));
 		}
         if(adoDropd.length){
-            var name = prompt('请输入你的姓名:');
+            do{
+                var name = prompt('请输入你的姓名:');
+            }while(name == "")
         	$.ajax({
         		url: ajaxPath4Check,
         		type: 'POST',
         		data: {
                     adoDropd: adoDropd,                 //音频
                     name:name,                           //姓名
-                    id:testId
+                    id:parseInt(testId)
                 },
+                dataType:'json'
         	})
         	.done(function() {
+                alert('提交成功');
         		console.log("success");
         	})
         	.fail(function() {

@@ -17,18 +17,42 @@ class IndexController extends Controller {
     public function getMedia($id){
         $test = M('test');
         $ado = D('ado');
-        $vdoRes = $test -> where('test_id = '.$id) -> select();
-        $adoRes = $ado -> where('test_id = '.$id) -> select();
+        $vdoRes = $test -> where('test_id = '.$id) -> getField('test_vdo_file');  //返回test_id下的一个视频
+        $adoRes = $ado -> where('test_id = '.$id) -> getField('ado_file',true);        //返回test_id下的若干个音频
         // dump($vdoRes);
 		$data = array();
-        $data['video'] = $Think.VDO_URL.$vdoRes[0]['test_vdo_file'];
+        $data['video'] = $Think.VDO_URL.$vdoRes;
         foreach ($adoRes as $key => $value) {
-            $data['audios'] []= $Think.ADO_URL.$value['ado_file'];
+            $data['audios'] []= $Think.ADO_URL.$value;
         }
 		$this -> ajaxReturn($data);
     }
+<<<<<<< HEAD
     public function check($adoDropd){
     	dump($adoDropd);
+=======
+    public function check($adoDropd,$name,$id){
+        $stuId = D('student') -> where('student_name="'.$name.'"') -> getField('student_id');
+        if($stuId == NULL){
+            $data = array('student_name' => $name);
+            D('student') -> add($data);
+            $stuId = D('student') -> where('student_name='.$name) -> getField('student_id');
+        }
+        $result = array();
+        for($i = 0; $i < count($adoDropd); $i++){
+            $data = array(
+                'test_id' => $id, 
+                'student_id' => $stuId,
+                'ado_id' => $adoDropd[$i]
+            );
+            $result []= $data;
+            D('result') -> add($data);
+        }
+        $this -> ajaxReturn($result);
+    }
+    public function getResult(){
+    	$this -> ajaxReturn($res);
+>>>>>>> origin/master
     }
 
 }
