@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-17 11:38:25
+=======
 <?php /* Smarty version Smarty-3.1.6, created on 2016-10-17 11:38:05
+>>>>>>> origin/master
          compiled from "./vdoado/Admin/View\Tch\result.html" */ ?>
 <?php /*%%SmartyHeaderCode:24758025be4a389f2-28489265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b13f3b0cbce23bcb7cc6492c1167b933dd4ea55' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\result.html',
+<<<<<<< HEAD
+      1 => 1476675354,
+=======
       1 => 1476675477,
+>>>>>>> origin/master
       2 => 'file',
     ),
   ),
