@@ -153,6 +153,7 @@ function init() {
         	})
         	.done(function() {
                 alert('提交成功');
+                window.location.href = "about:blank"; 
         		console.log("success");
         	})
         	.fail(function() {
