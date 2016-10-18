@@ -37,19 +37,20 @@
                                 </tr>
                             </thead>
                             <tbody> 
+                                {$res_stu[0][0]}
                                 {assign var="i" value=0}
-                                {foreach from=$res_student item=value name=student}
+                                {foreach from=$res_stu item=value name=result}
                                 <tr>
-                                    {if $smarty.foreach.student.index < $res_max/2 }
-                                        <td>{$res_student[$i++].student_name}</td>
+                                    {if $smarty.foreach.result.index -1 < $res_max/2 }
+                                        <td>{$res_stu[$i][0]}</td>
                                         <td>
-                                            <input type="text" value="1 2 3" readonly=true>
+                                            <input type="text" value="{$res_stu[$i++][0]}" readonly=true>
                                             <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
                                         </td>
-                                        {if $smarty.foreach.student.index <= $res_max/2 - 1}
-                                            <td>{$res_student[$i++].student_name}</td>
+                                        {if $smarty.foreach.result.index <= $res_max/2-1}
+                                            <td>{$res_stu[$i][0]}</td>
                                             <td>
-                                                <input type="text" value="1 2 3" readonly=true>
+                                                <input type="text" value="{$res_stu[$i++][0]}" readonly=true>
                                                 <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
                                             </td>
                                         {/if}
@@ -75,8 +76,7 @@
                     <h4 class="modal-title">播放</h4>
                 </div>
                 <div class="modal-body">
-                    <video id="modal_video" src="" controls muted></video>
-                    <audio id="modal_audio" src="" ></audio>
+                    <video id="model_video" src="" controls muted></vdideo>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
@@ -121,84 +121,35 @@ $(document).ready(function(){
 
         /* 模态框 */
         $('.play_go').click(function(){
-            var id = {$id};
-            var video;
-            var audios = []; 
-            $.ajax({ //request an json object 
-                    url: "{U('Home/Index/getMedia')}", 
-                    type: 'POST',
-                    data: {
-                        id:id
-                    },
-                    dataType: 'json'
-                })
-                .done(function(data) { //get sources
-                    video = data['video'];
-                    audios = data['audios'];
-                    $('#modal_video').attr('src',video);
-                     $('#modal_video')[0].currentTime = 0; 
-                     $('#modal_video')[0].pause();                                                                          //load vdoPlayer
-
-                     $('#modal_play').modal();
-            
-                    console.log("success");
-                })
-                .fail(function() {
-                    console.log("error");
-                })
-                .always(function() {
-                    console.log("complete");
-                });
-
-
-                $.ajax({
-                    url: "{U('Home/Index/getResult')}",
-                    type: 'POST',
-                    dataType: 'json',
-                    data: {
-                        id: id
-                    },
-                })
-                .done(function(data) {
-
-                    var adoRcr = 0;
-                        $('#modal_audio').attr({
-                            src:  audios[data[adoRcr++]]
-                        })[0].play();
-
-
-                        $('#modal_audio')[0].onended = function() {                                                   //play next
-                            if (adoRcr >= data.length) {                                                        //dropd ado ended
-                                $('#modal_video')[0].pause();
-                                $('#modal_video')[0].currentTime = 0;
-                                $('#modal_audio')[0].pause();
-                                $('#modal_audio')[0].onended = null;
-                            } else {                                                                                //dropd ado playing
-                                $(this).attr({
-                                    src: audios[data[adoRcr++]]
-                                })[0].play();
-                            }
-                        };
-                    console.log("success");
-                })
-                .fail(function() {
-                    console.log("error");
-                })
-                .always(function() {
-                    console.log("complete");
-                });
-                
+            $('#modal_play').modal();
         });
         
 
 
          
               
-
-             
-
-
         });
+        function getMedia(id){
+                  $.ajax({ //request an json object 
+                    url: "{U('Home/Index/getMedia')}", 
+                    type: 'POST',
+                    data: id,
+                    dataType: 'json'
+                })
+                .done(function(data) { //get sources
+                    video = data['video'];
+                    audios = data['audios'];
+           // alert('1');
+                    $('#model_video').attr('src',video);
+                    console.log("success");
+                })
+                .fail(function() {
+                    console.log("error");
+                })
+                .always(function() {
+                    console.log("complete");
+                });
+        }
     </script>
 </body>
 

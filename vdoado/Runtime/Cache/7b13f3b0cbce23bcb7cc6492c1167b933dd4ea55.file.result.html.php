@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-17 11:38:25
-=======
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-17 11:38:05
->>>>>>> origin/master
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-18 10:07:46
          compiled from "./vdoado/Admin/View\Tch\result.html" */ ?>
 <?php /*%%SmartyHeaderCode:24758025be4a389f2-28489265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -11,11 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b13f3b0cbce23bcb7cc6492c1167b933dd4ea55' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\result.html',
-<<<<<<< HEAD
-      1 => 1476675354,
-=======
-      1 => 1476675477,
->>>>>>> origin/master
+      1 => 1476756463,
       2 => 'file',
     ),
   ),
@@ -28,9 +20,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'variables' => 
   array (
     'res_max' => 0,
-    'res_student' => 0,
+    'res_stu' => 0,
     'i' => 0,
-    'id' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -80,27 +71,31 @@ style.css" rel="stylesheet">
                                 </tr>
                             </thead>
                             <tbody> 
+                                <?php echo $_smarty_tpl->tpl_vars['res_stu']->value[0][0];?>
+
                                 <?php $_smarty_tpl->tpl_vars["i"] = new Smarty_variable(0, null, 0);?>
                                 <?php  $_smarty_tpl->tpl_vars['value'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['value']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['res_student']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
- $_smarty_tpl->tpl_vars['smarty']->value['foreach']['student']['index']=-1;
+ $_from = $_smarty_tpl->tpl_vars['res_stu']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+ $_smarty_tpl->tpl_vars['smarty']->value['foreach']['result']['index']=-1;
 foreach ($_from as $_smarty_tpl->tpl_vars['value']->key => $_smarty_tpl->tpl_vars['value']->value){
 $_smarty_tpl->tpl_vars['value']->_loop = true;
- $_smarty_tpl->tpl_vars['smarty']->value['foreach']['student']['index']++;
+ $_smarty_tpl->tpl_vars['smarty']->value['foreach']['result']['index']++;
 ?>
                                 <tr>
-                                    <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['student']['index']<$_smarty_tpl->tpl_vars['res_max']->value/2){?>
-                                        <td><?php echo $_smarty_tpl->tpl_vars['res_student']->value[$_smarty_tpl->tpl_vars['i']->value++]['student_name'];?>
+                                    <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['result']['index']-1<$_smarty_tpl->tpl_vars['res_max']->value/2){?>
+                                        <td><?php echo $_smarty_tpl->tpl_vars['res_stu']->value[$_smarty_tpl->tpl_vars['i']->value][0];?>
 </td>
                                         <td>
-                                            <input type="text" value="1 2 3" readonly=true>
+                                            <input type="text" value="<?php echo $_smarty_tpl->tpl_vars['res_stu']->value[$_smarty_tpl->tpl_vars['i']->value++];?>
+" readonly=true>
                                             <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
                                         </td>
-                                        <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['student']['index']<=$_smarty_tpl->tpl_vars['res_max']->value/2-1){?>
-                                            <td><?php echo $_smarty_tpl->tpl_vars['res_student']->value[$_smarty_tpl->tpl_vars['i']->value++]['student_name'];?>
+                                        <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['result']['index']<=$_smarty_tpl->tpl_vars['res_max']->value/2-1){?>
+                                            <td><?php echo $_smarty_tpl->tpl_vars['res_stu']->value[$_smarty_tpl->tpl_vars['i']->value][0];?>
 </td>
                                             <td>
-                                                <input type="text" value="1 2 3" readonly=true>
+                                                <input type="text" value="<?php echo $_smarty_tpl->tpl_vars['res_stu']->value[$_smarty_tpl->tpl_vars['i']->value++];?>
+" readonly=true>
                                                 <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
                                             </td>
                                         <?php }?>
@@ -126,8 +121,7 @@ $_smarty_tpl->tpl_vars['value']->_loop = true;
                     <h4 class="modal-title">播放</h4>
                 </div>
                 <div class="modal-body">
-                    <video id="modal_video" src="" controls muted></video>
-                    <audio id="modal_audio" src="" ></audio>
+                    <video id="model_video" src="" controls muted></vdideo>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
@@ -180,87 +174,36 @@ $(document).ready(function(){
 
         /* 模态框 */
         $('.play_go').click(function(){
-            var id = <?php echo $_smarty_tpl->tpl_vars['id']->value;?>
-;
-            var video;
-            var audios = []; 
-            $.ajax({ //request an json object 
-                    url: "<?php echo U('Home/Index/getMedia');?>
-", 
-                    type: 'POST',
-                    data: {
-                        id:id
-                    },
-                    dataType: 'json'
-                })
-                .done(function(data) { //get sources
-                    video = data['video'];
-                    audios = data['audios'];
-                    $('#modal_video').attr('src',video);
-                     $('#modal_video')[0].currentTime = 0; 
-                     $('#modal_video')[0].pause();                                                                          //load vdoPlayer
-
-                     $('#modal_play').modal();
-            
-                    console.log("success");
-                })
-                .fail(function() {
-                    console.log("error");
-                })
-                .always(function() {
-                    console.log("complete");
-                });
-
-
-                $.ajax({
-                    url: "<?php echo U('Home/Index/getResult');?>
-",
-                    type: 'POST',
-                    dataType: 'json',
-                    data: {
-                        id: id
-                    },
-                })
-                .done(function(data) {
-
-                    var adoRcr = 0;
-                        $('#modal_audio').attr({
-                            src:  audios[data[adoRcr++]]
-                        })[0].play();
-
-
-                        $('#modal_audio')[0].onended = function() {                                                   //play next
-                            if (adoRcr >= data.length) {                                                        //dropd ado ended
-                                $('#modal_video')[0].pause();
-                                $('#modal_video')[0].currentTime = 0;
-                                $('#modal_audio')[0].pause();
-                                $('#modal_audio')[0].onended = null;
-                            } else {                                                                                //dropd ado playing
-                                $(this).attr({
-                                    src: audios[data[adoRcr++]]
-                                })[0].play();
-                            }
-                        };
-                    console.log("success");
-                })
-                .fail(function() {
-                    console.log("error");
-                })
-                .always(function() {
-                    console.log("complete");
-                });
-                
+            $('#modal_play').modal();
         });
         
 
 
          
               
-
-             
-
-
         });
+        function getMedia(id){
+                  $.ajax({ //request an json object 
+                    url: "<?php echo U('Home/Index/getMedia');?>
+", 
+                    type: 'POST',
+                    data: id,
+                    dataType: 'json'
+                })
+                .done(function(data) { //get sources
+                    video = data['video'];
+                    audios = data['audios'];
+           // alert('1');
+                    $('#model_video').attr('src',video);
+                    console.log("success");
+                })
+                .fail(function() {
+                    console.log("error");
+                })
+                .always(function() {
+                    console.log("complete");
+                });
+        }
     </script>
 </body>
 

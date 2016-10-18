@@ -27,6 +27,10 @@ class IndexController extends Controller {
         }
 		$this -> ajaxReturn($data);
     }
+<<<<<<< HEAD
+    public function check($adoDropd){
+    	dump($adoDropd);
+=======
     public function check($adoDropd,$name,$id){
         $stuId = D('student') -> where('student_name="'.$name.'"') -> getField('student_id');
         if($stuId == NULL){
@@ -48,5 +52,6 @@ class IndexController extends Controller {
     }
     public function getResult(){
     	$this -> ajaxReturn($res);
+>>>>>>> origin/master
     }
 }
