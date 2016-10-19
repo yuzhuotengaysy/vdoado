@@ -50,6 +50,15 @@ class TchController extends Controller {
     		$arr = $_POST;									//获得表单提交的课程名
     		$arr += array('course_pubtime'=>date('Y-m-d')); //添加当前日期
 			$course -> add($arr);							//执行sql语句
+		
+            //-- 写死两门课功能调整 -- 开始 -- 2016-10-19 杨森 --
+            //麻烦把这段功能写入，就是这里配置两个写死的tests。
+            //本来应该写进config文件的，算了就先写在这里吧，省得以后找起来麻烦
+
+            $configtests = array("练习1", "练习2");                 //插入test表，注意关联
+            $configaudio = array( array("1.ogg","2.ogg"),  array("1.ogg", "2.ogg", "5.ogg", "7.ogg"));  //插入audio表，注意关联
+
+            //-- 写死两门课功能调整 -- 结束 
 			echo "<script>alert('配置成功')</script>";
 			$this -> display();	
     	} else {
