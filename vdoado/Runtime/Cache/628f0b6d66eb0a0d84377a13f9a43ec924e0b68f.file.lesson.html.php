@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-18 12:01:40
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-19 12:52:53
          compiled from "./vdoado/Admin/View\Tch\lesson.html" */ ?>
 <?php /*%%SmartyHeaderCode:1528858025a9ab99ac0-23030861%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '628f0b6d66eb0a0d84377a13f9a43ec924e0b68f' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\lesson.html',
-      1 => 1476761229,
+      1 => 1476766944,
       2 => 'file',
     ),
   ),
@@ -63,7 +63,8 @@ style.min.css-v=4.0.0.css" rel="stylesheet">
                                     <div class="form-group">
                                         <label>第一次练习地址</label>
                                          <div class="input-group">
-                                            <input id="text1" type="text" class="form-control" value="localhost/vdoado/index.php?id=<?php echo I('get.id')*2-1;?>
+                                            <input id="text1" type="text" class="form-control" value="<?php echo @SITE_URL;?>
+?id=<?php echo I('get.id')*2-1;?>
 "> 
                                             <span class="input-group-btn"> 
                                                 <button type="button" class="btn btn-primary" onclick="copyit(this)">复 制</button> 
@@ -73,7 +74,8 @@ style.min.css-v=4.0.0.css" rel="stylesheet">
                                     <div class="form-group">
                                         <label>第二次练习地址</label>
                                         <div class="input-group">
-                                            <input id="text2" type="text" class="form-control" value="localhost/vdoado/index.php?id=<?php echo I('get.id')*2;?>
+                                            <input id="text2" type="text" class="form-control" value="<?php echo @SITE_URL;?>
+?id=<?php echo I('get.id')*2;?>
 "> 
                                             <span class="input-group-btn"> 
                                                 <button type="button" class="btn btn-primary" onclick="copyit(this)">复 制</button> 

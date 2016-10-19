@@ -1,6 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-19 12:33:24
-         compiled from "./vdoado/Admin/View\Tch\new_lesson.html" */ ?>
-<?php /*%%SmartyHeaderCode:1166558025a9bc74a84-14657433%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:292695805bba71be1d5-46257213%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,36 +9,26 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1166558025a9bc74a84-14657433',
-  'function' => 
-  array (
-  ),
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_58025a9bd43b3',
+  'nocache_hash' => '292695805bba71be1d5-46257213',
   'has_nocache_code' => false,
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58025a9bd43b3')) {function content_58025a9bd43b3($_smarty_tpl) {?>
-<!DOCTYPE html>
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5805bba72a880',
+  'cache_lifetime' => 3600,
+),true); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5805bba72a880')) {function content_5805bba72a880($_smarty_tpl) {?><!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>课程中心</title>
     <link rel="shortcut icon" href="favicon.ico"> 
-    <link href="<?php echo @CSS_URL;?>
-bootstrap.min.css-v=3.3.5.css" rel="stylesheet">
-    <link href="<?php echo @CSS_URL;?>
-font-awesome.min.css-v=4.4.0.css" rel="stylesheet">
-    <link href="<?php echo @CSS_URL;?>
-plugins/iCheck/custom.css" rel="stylesheet">
-    <link href="<?php echo @CSS_URL;?>
-plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
-    <link href="<?php echo @CSS_URL;?>
-plugins/sweetalert/sweetalert.css" rel="stylesheet">
-    <link href="<?php echo @CSS_URL;?>
-animate.min.css" rel="stylesheet">
-    <link href="<?php echo @CSS_URL;?>
-style.min.css-v=4.0.0.css" rel="stylesheet">
+    <link href="http://localhost/vdoado/vdoado/Public/css/bootstrap.min.css-v=3.3.5.css" rel="stylesheet">
+    <link href="http://localhost/vdoado/vdoado/Public/css/font-awesome.min.css-v=4.4.0.css" rel="stylesheet">
+    <link href="http://localhost/vdoado/vdoado/Public/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="http://localhost/vdoado/vdoado/Public/css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
+    <link href="http://localhost/vdoado/vdoado/Public/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+    <link href="http://localhost/vdoado/vdoado/Public/css/animate.min.css" rel="stylesheet">
+    <link href="http://localhost/vdoado/vdoado/Public/css/style.min.css-v=4.0.0.css" rel="stylesheet">
 </head>
 
 <body class="gray-bg">
@@ -54,8 +42,7 @@ style.min.css-v=4.0.0.css" rel="stylesheet">
                     <div class="ibox-content">
                         <div class="row">
                             <div class="col-sm-12 b-r">
-                                <form action="<?php echo @__SELF__;?>
-" method="post" onsubmit="return checkit()">
+                                <form action="/vdoado/index.php/admin/Tch/new_lesson?v=4.0" method="post" onsubmit="return checkit()">
                                     <div class="form-group">
                                         <label>课程名称</label>
                                         <input type="test" id="lesson" placeholder="请输入课程名称" class="form-control" name="course_name" style="width:30%">
@@ -75,16 +62,11 @@ style.min.css-v=4.0.0.css" rel="stylesheet">
     </div>
 
     
-    <script src="<?php echo @JS_URL;?>
-jquery.min.js-v=2.1.4.js"></script>
-    <script src="<?php echo @JS_URL;?>
-bootstrap.min.js-v=3.3.5.js"></script>
-    <script src="<?php echo @JS_URL;?>
-content.min.js-v=1.0.0.js"></script>
-    <script src="<?php echo @JS_URL;?>
-plugins/iCheck/icheck.min.js"></script>
-    <script src="<?php echo @JS_URL;?>
-plugins/sweetalert/sweetalert.min.js"></script>
+    <script src="http://localhost/vdoado/vdoado/Public/js/jquery.min.js-v=2.1.4.js"></script>
+    <script src="http://localhost/vdoado/vdoado/Public/js/bootstrap.min.js-v=3.3.5.js"></script>
+    <script src="http://localhost/vdoado/vdoado/Public/js/content.min.js-v=1.0.0.js"></script>
+    <script src="http://localhost/vdoado/vdoado/Public/js/plugins/iCheck/icheck.min.js"></script>
+    <script src="http://localhost/vdoado/vdoado/Public/js/plugins/sweetalert/sweetalert.min.js"></script>
     <script type="text/javascript">
         function checkit(){
             if($('#lesson').val() ==""){

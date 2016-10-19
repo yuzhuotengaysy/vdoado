@@ -44,19 +44,47 @@ class TchController extends Controller {
 
     public function new_lesson(){
     	$course = D('course');		//实例化
+        $test   = D('test');
+        $ado    = D('ado');
 
     	/* 如果表单没有提交，则显示网页，提交则处理SQL语句*/
     	if(!empty($_POST)) {
     		$arr = $_POST;									//获得表单提交的课程名
     		$arr += array('course_pubtime'=>date('Y-m-d')); //添加当前日期
 			$course -> add($arr);							//执行sql语句
-		
+
             //-- 写死两门课功能调整 -- 开始 -- 2016-10-19 杨森 --
             //麻烦把这段功能写入，就是这里配置两个写死的tests。
             //本来应该写进config文件的，算了就先写在这里吧，省得以后找起来麻烦
 
-            $configtests = array("练习1", "练习2");                 //插入test表，注意关联
+            /* test表 */
+            $course_id = M('course') -> field("max(course_id)") -> find();    //获取课程这次配置新课的课程id
+            $configtests = array("练习1", "练习2");                           //插入test表，注意关联
+            $vdo_file = array('video.mp4','video.mp4');
+            $test_temp = array();
+            for($i = 0; $i < count($configtests); $i++){
+                $test_temp[] = array(
+                    'course_id'     => (int)$course_id['max(course_id)'],
+                    'test_title'    => $configtests[$i],
+                    'test_vdo_file' => $vdo_file[$i]
+                );
+            }
+            $test -> addAll($test_temp);
+
+            /* ado表 */
+            $test_id  = array((int)$course_id['max(course_id)'] * 2 - 1 , (int)$course_id['max(course_id)'] * 2);//练习id
+            $ado_name = array( array("音频1", "音频2"),  array("音频1", "音频2", "音频5", "音频7"));    //音频名称
             $configaudio = array( array("1.ogg","2.ogg"),  array("1.ogg", "2.ogg", "5.ogg", "7.ogg"));  //插入audio表，注意关联
+            $ado_temp = array();
+            for($i = 0; $i < count($configaudio); $i++){
+                for($j = 0; $j < count($configaudio[$i]); $j++)
+                $ado_temp[] = array(
+                    'test_id'  => $test_id[$i],
+                    'ado_name' => $ado_name[$i][$j],
+                    'ado_file' => $configaudio[$i][$j]
+                );
+            }
+            $ado -> addAll($ado_temp);
 
             //-- 写死两门课功能调整 -- 结束 
 			echo "<script>alert('配置成功')</script>";
