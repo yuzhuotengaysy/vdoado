@@ -19,8 +19,7 @@ function getPath(a4m,a4c,id){
 }
 function loadSrc() {
     for (var i in audios) {     //构建音频方块
-    	var j = parseInt(i)+1;
-        $('.drag').append('<div id="' + j + '" class="text-center ado">' + adoNames[i] +'<i class="glyphicon glyphicon-play"></i>' + '<a>x</a></div>')
+        $('.drag').append('<div id="' + i + '" class="text-center ado">' + adoNames[i] +'<i class="glyphicon glyphicon-play"></i>' + '<a>x</a></div>')
     }
     $('.vdoPlayer').attr({ //setup video player
         src: video
@@ -35,7 +34,7 @@ function loadSrc() {
         .hover(function() {
             var i = $(this).attr('id');
             $('.adoPlayer').attr({
-                src: audios[i-1]
+                src: audios[i]
             });
             $('.adoPlayer')[0].play();
         }, function() {
@@ -137,7 +136,7 @@ function init() {
     $('.submit').click(function() {
     	var adoDropd = [];
     	for (var i = 0; i < $('.drop>.ado').length; i++) {
-		    adoDropd[i] = parseInt($('.drop>.ado').eq(i).attr('id'));
+		    adoDropd[i] = parseInt($('.drop>.ado').eq(i).attr('id')+1);
 		}
         if(adoDropd.length){
             do{
