@@ -26,10 +26,10 @@ class TchController extends Controller {
             $res_stu[$i] []= $student -> where('student_id = "'.$stu[$i].'"') ->getField('student_name');   //学生姓名
             $res_stu[$i] []= $result -> where('student_id = "'.$stu[$i].'"') ->getField('ado_id',true);     //音频id
             for($j = 0; $j < count($res_stu[$i][1]); $j++){
-                $res_stu[$i][2][]= $ado -> where('ado_id = "'.$res_stu[$i][1][$j].'"') ->getField('ado_name',true);   //音频名称
+                $res_stu[$i][2][]= $ado -> where('ado_id = "'.$res_stu[$i][1][$j].'"') ->getField('ado_name');   //音频名称
             }
         }
-        dump($res_stu);
+        
         $ado =  $ado -> where('test_id = '.$_GET["id"])->  getField('ado_id',true);                  //将练习id和练习对应的ado进行匹配
         for($i = 1; $i <= count($ado); $i++){                                                        //获得统计图数据
             $map['test_id'] = $_GET["id"];

@@ -38,14 +38,13 @@
                             </thead>
                             <tbody> 
                                 {assign var="i" value=0}
-                                {assign var="j" value=0}
                                 {foreach from=$res_stu item=value name=result}
                                 <tr>
                                     {if $smarty.foreach.result.index < $res_max/2 }
                                         <td>{$res_stu[$i][0]}</td>
                                         <td>
                                             {$j = 0}
-                                            <input type="text" value="{foreach from=$res_stu[$i] item=val}{$res_stu[$i][2][$j][0]}{$j=$j+1} {/foreach}" readonly=true>
+                                            <input type="text" value="{foreach from=$res_stu[$i][2] item=val}{$val} {/foreach}" readonly=true>
                                             <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
                                         </td>
                                         {$i = $i + 1}
@@ -53,7 +52,7 @@
                                             <td>{$res_stu[$i][0]}</td>
                                             <td>
                                                 {$j = 0}
-                                                <input type="text" value="{foreach from=$res_stu[$i] item=val}{$res_stu[$i][2][$j][0]}{$j=$j+1}{/foreach}" readonly=true>
+                                                <input type="text" value="{foreach from=$res_stu[$i][2] item=val}{$val} {/foreach}" readonly=true>
                                                 <button class="btn btn-primary btn-circle play_go"><i class="fa fa-play"></i></button>
                                             </td>
                                         {/if}
