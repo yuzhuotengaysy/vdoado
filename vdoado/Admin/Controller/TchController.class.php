@@ -10,7 +10,6 @@ class TchController extends Controller {
     	$this -> assign('res', $res);
         $this -> assign('test_id', $test_id);
     	$this -> display();
-        dump($test_id[0]);
     }
 
     public function result(){
