@@ -4,10 +4,13 @@ use Think\Controller;
 class TchController extends Controller {
     public function lesson(){
     	$course = D('course');	    //实例化
-    	$res = $course  -> where('course_id = '.$_REQUEST["id"]) -> select();	//获得数据信息
+    	$res = $course  -> where('course_id = '.$_GET["id"]) -> select();	//获得数据信息
+        $test_id = M('test') ->  field("test_id") -> where('course_id = '.$_GET["id"]) -> select();
     	//把数据assign到模板
     	$this -> assign('res', $res);
+        $this -> assign('test_id', $test_id);
     	$this -> display();
+        dump($test_id[0]);
     }
 
     public function result(){
@@ -21,10 +24,13 @@ class TchController extends Controller {
 
         $stu = $result -> distinct(true) -> where('test_id = '.$_GET["id"]) -> getField('student_id',true);     //获取学生列表
         for($i = 0; $i < count($stu); $i++){                                                         //将学生名字和学生提交的ado_id进行匹配
-            $res_stu[$i] []= $student -> where('student_id = "'.$stu[$i].'"') ->getField('student_name');
-            $res_stu[$i] []= $result -> where('student_id = "'.$stu[$i].'"') ->getField('ado_id',true);
+            $res_stu[$i] []= $student -> where('student_id = "'.$stu[$i].'"') ->getField('student_name');   //学生姓名
+            $res_stu[$i] []= $result -> where('student_id = "'.$stu[$i].'"') ->getField('ado_id',true);     //音频id
+            for($j = 0; $j < count($res_stu[$i][1]); $j++){
+                $res_stu[$i][2][]= $ado -> where('ado_id = "'.$res_stu[$i][1][$j].'"') ->getField('ado_name',true);   //音频名称
+            }
         }
-
+        dump($res_stu);
         $ado =  $ado -> where('test_id = '.$_GET["id"])->  getField('ado_id',true);                  //将练习id和练习对应的ado进行匹配
         for($i = 1; $i <= count($ado); $i++){                                                        //获得统计图数据
             $map['test_id'] = $_GET["id"];
@@ -71,8 +77,9 @@ class TchController extends Controller {
             }
             $test -> addAll($test_temp);
 
-            /* ado表 */
-            $test_id  = array((int)$course_id['max(course_id)'] * 2 - 1 , (int)$course_id['max(course_id)'] * 2);//练习id
+            /* ado表 */      
+            $test_id_get = M('test') -> field("max(test_id)") -> find();                                //得到test表的最大id                                 
+            $test_id  = array((int)$test_id_get['max(test_id)']-1, (int)$test_id_get['max(test_id)']);  //练习id
             $ado_name = array( array("音频1", "音频2"),  array("音频1", "音频2", "音频5", "音频7"));    //音频名称
             $configaudio = array( array("1.ogg","2.ogg"),  array("1.ogg", "2.ogg", "5.ogg", "7.ogg"));  //插入audio表，注意关联
             $ado_temp = array();
