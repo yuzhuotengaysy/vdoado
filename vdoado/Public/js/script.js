@@ -35,7 +35,7 @@ function loadSrc() {
         .hover(function() {
             var i = $(this).attr('id');
             $('.adoPlayer').attr({
-                src: audios[i]
+                src: audios[i-1]
             });
             $('.adoPlayer')[0].play();
         }, function() {
