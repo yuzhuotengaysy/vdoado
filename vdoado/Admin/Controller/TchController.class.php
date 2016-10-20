@@ -93,8 +93,7 @@ class TchController extends Controller {
             $ado -> addAll($ado_temp);
 
             //-- 写死两门课功能调整 -- 结束 
-			echo "<script>alert('配置成功')</script>";
-			$this -> display();	
+			$this -> redirect('Tch/lesson', array('id' => $course_id['max(course_id)']), 3, "配置成功，即将跳转页面！" );	
     	} else {
     		$this -> display();	
     	}
