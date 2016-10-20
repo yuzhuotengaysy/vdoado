@@ -6,6 +6,7 @@ var adoRcr = 0;
 
 //vars for ajaxQuery
 var audios = [];
+var adoNames = [];
 var adoDropd = [];
 var video = '';
 
@@ -17,9 +18,9 @@ function getPath(a4m,a4c,id){
     
 }
 function loadSrc() {
-    for (var i in audios) { //create audio players
+    for (var i in audios) {     //构建音频方块
     	var j = parseInt(i)+1;
-        $('.drag').append('<div id="' + j + '" class="text-center ado">' + j +'<i class="glyphicon glyphicon-play"></i>' + '<a>x</a></div>')
+        $('.drag').append('<div id="' + j + '" class="text-center ado">' + adoNames[i] +'<i class="glyphicon glyphicon-play"></i>' + '<a>x</a></div>')
     }
     $('.vdoPlayer').attr({ //setup video player
         src: video
@@ -58,8 +59,9 @@ function init() {
         dataType: 'json'
     })
     .done(function(data) { //get sources
-        video = data['video'];                      //video source
-        audios = data['audios'];                    //audios source (array)
+        video = data['video'];                      //视频源 是字符串
+        audios = data['audios'];                    //音频源 是数组
+        adoNames = data['adoNames'];
         loadSrc();
         console.log("success");
     })

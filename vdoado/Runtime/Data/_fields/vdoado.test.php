@@ -1,0 +1,1 @@
+a:6:{i:0;s:7:"test_id";i:1;s:9:"course_id";i:2;s:10:"test_title";i:3;s:13:"test_vdo_file";s:3:"_pk";s:7:"test_id";s:5:"_type";a:4:{s:7:"test_id";s:7:"int(11)";s:9:"course_id";s:7:"int(11)";s:10:"test_title";s:11:"varchar(50)";s:13:"test_vdo_file";s:12:"varchar(100)";}}

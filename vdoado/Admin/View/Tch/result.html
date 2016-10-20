@@ -137,23 +137,23 @@
                         $('#modal_video')[0].currentTime = 0; 
                         $('#modal_video')[0].play();                                                                          //load vdoPlayer
                         var adoRcr = 0;
-                        $('#modal_audio').attr({
+                        $('#modal_audio').attr({                                                                    //播放第一个音频
                             src:  audios[sort[adoRcr++]-1]
                         })[0].play();
-                        $('#modal_test').text(audios[sort[adoRcr-1]-1]);
+                        $('#modal_test').text(res[which][2][adoRcr-1]);
 
-                        $('#modal_audio')[0].onended = function() {                                                   //play next
-                            if (adoRcr >= sort.length) {                                                        //dropd ado ended
+                        $('#modal_audio')[0].onended = function() {                                                   //当前音频播放完毕时
+                            if (adoRcr >= sort.length) {                                                        //如果所有音频播放完毕
                                 $('#modal_video')[0].pause();
                                 $('#modal_video')[0].currentTime = 0;
                                 $('#modal_audio')[0].pause();
                                 $('#modal_audio')[0].onended = null;
-                            } else {                                                                                //dropd ado playing
+                            } else {                                                                                //播放下一个音频
                                 $(this).attr({
                                     src: audios[sort[adoRcr++]-1]
                                 })[0].play();
 
-                        $('#modal_test').text(audios[sort[adoRcr-1]-1]);
+                        $('#modal_test').text(res[which][2][adoRcr-1]);
                             }
                         };
                         $('#modal_play').modal();

@@ -1,5 +1,5 @@
 *{
-	
+	font-family:microsoft yahei;
 }
 
 .vdoPlayer{
@@ -33,7 +33,7 @@
 	position:relative;
 	width:100px;
 	height:100px;
-	font-size:30px;
+	font-size:20px;
 	line-height:100px;
 	margin:10px;
 	background:#fff;

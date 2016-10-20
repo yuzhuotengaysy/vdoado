@@ -1,0 +1,1 @@
+a:6:{i:0;s:6:"ado_id";i:1;s:7:"test_id";i:2;s:8:"ado_name";i:3;s:8:"ado_file";s:3:"_pk";s:6:"ado_id";s:5:"_type";a:4:{s:6:"ado_id";s:7:"int(11)";s:7:"test_id";s:7:"int(11)";s:8:"ado_name";s:12:"varchar(100)";s:8:"ado_file";s:12:"varchar(100)";}}

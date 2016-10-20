@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-20 18:18:35
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-20 18:44:09
          compiled from "./vdoado/Admin/View\Tch\result.html" */ ?>
 <?php /*%%SmartyHeaderCode:24758025be4a389f2-28489265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b13f3b0cbce23bcb7cc6492c1167b933dd4ea55' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\result.html',
-      1 => 1476958712,
+      1 => 1476960244,
       2 => 'file',
     ),
   ),
@@ -204,23 +204,23 @@ teacher.js"></script>
                         $('#modal_video')[0].currentTime = 0; 
                         $('#modal_video')[0].play();                                                                          //load vdoPlayer
                         var adoRcr = 0;
-                        $('#modal_audio').attr({
+                        $('#modal_audio').attr({                                                                    //播放第一个音频
                             src:  audios[sort[adoRcr++]-1]
                         })[0].play();
-                        $('#modal_test').text(audios[sort[adoRcr-1]-1]);
+                        $('#modal_test').text(res[which][2][adoRcr-1]);
 
-                        $('#modal_audio')[0].onended = function() {                                                   //play next
-                            if (adoRcr >= sort.length) {                                                        //dropd ado ended
+                        $('#modal_audio')[0].onended = function() {                                                   //当前音频播放完毕时
+                            if (adoRcr >= sort.length) {                                                        //如果所有音频播放完毕
                                 $('#modal_video')[0].pause();
                                 $('#modal_video')[0].currentTime = 0;
                                 $('#modal_audio')[0].pause();
                                 $('#modal_audio')[0].onended = null;
-                            } else {                                                                                //dropd ado playing
+                            } else {                                                                                //播放下一个音频
                                 $(this).attr({
                                     src: audios[sort[adoRcr++]-1]
                                 })[0].play();
 
-                        $('#modal_test').text(audios[sort[adoRcr-1]-1]);
+                        $('#modal_test').text(res[which][2][adoRcr-1]);
                             }
                         };
                         $('#modal_play').modal();
