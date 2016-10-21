@@ -43,7 +43,7 @@ class TchController extends Controller {
             $temp['y'] =  M('result')->where($map)->count('ado_id'); 
             $res_ado []= $temp;                                          
         }
-
+       // dump($res_stu);
         $this -> assign('res_max', $res_max);
         $this -> assign('res_stu', $res_stu);
         $this -> assign('res_ado', $res_ado);

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-21 16:15:06
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-21 17:34:11
          compiled from "./vdoado/Admin/View\Tch\result.html" */ ?>
 <?php /*%%SmartyHeaderCode:24758025be4a389f2-28489265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b13f3b0cbce23bcb7cc6492c1167b933dd4ea55' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\result.html',
-      1 => 1477037652,
+      1 => 1477042449,
       2 => 'file',
     ),
   ),
@@ -197,15 +197,38 @@ teacher.js"></script>
                         dataType: 'json'
                     })
                     .done(function(data) { //get sources
-                        video = data['video'];
-                        audios = data['audios'];
+                        // video = data['video'];
+                        // audios = data['audios'];
+                        /*
+                        *           
+                        *    data = {
+                        *            video:视频地址,                     
+                        *            audio:{
+                        *               audioFiles:[音频地址],              
+                        *               audioIds:[音频id],                
+                        *               audioNames:[音频名]               
+                        *               }
+                        *           }
+                        */
+                        video = data['video'];                      //视频源 是字符串
+                        audios = data['audios'];                    //音频源 是二维数组
+                        adoFiles = audios['adoFiles'];
+                        adoNames = audios['adoNames'];
+                        adoIds = audios['adoIds'];
+                        /*
+                        *   res_stu[x] = {
+                        *      [0]=学生姓名,
+                        *      [1]=[音频id],
+                        *      [2]=[音频名]       
+                        *   }
+                        */
                         sort = res[which][1];
                         $('#modal_video').attr('src',video);
                         $('#modal_video')[0].currentTime = 0; 
-                        $('#modal_video')[0].play();                                                                          //load vdoPlayer
+                        $('#modal_video')[0].play();                                  //load vdoPlayer
                         var adoRcr = 0;
                         $('#modal_audio').attr({                                                                    //播放第一个音频
-                            src:  audios[sort[adoRcr++]-1]
+                            src:  adoFiles[sort[adoRcr++]-1]
                         })[0].play();
                         $('#modal_test').text(res[which][2][adoRcr-1]);
 
@@ -217,7 +240,7 @@ teacher.js"></script>
                                 $('#modal_audio')[0].onended = null;
                             } else {                                                                                //播放下一个音频
                                 $(this).attr({
-                                    src: audios[sort[adoRcr++]-1]
+                                    src: adoFiles[sort[adoRcr++]-1]
                                 })[0].play();
 
                         $('#modal_test').text(res[which][2][adoRcr-1]);
