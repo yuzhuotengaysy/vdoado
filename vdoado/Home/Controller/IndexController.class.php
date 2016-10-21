@@ -17,16 +17,19 @@ class IndexController extends Controller {
     public function getMedia($id){
         $test = M('test');
         $ado = D('ado');
+        $audios = array();
         $video = $test -> where('test_id = '.$id) -> getField('test_vdo_file');  //返回test_id下的一个视频
-        $audios = $ado -> where('test_id = '.$id) -> getField('ado_file',true);        //返回test_id下的若干个音频
-       
+        $audios['adoFiles'] = $ado -> where('test_id = '.$id) -> getField('ado_file',true);        //返回test_id下的若干个音频
+        $audios['adoIds'] = $ado -> where('test_id = '.$id) -> getField('ado_id',true);        //返回test_id下的若干个音频
+        $audios['adoNames'] = $ado -> where('test_id = '.$id) -> getField('ado_name',true);        //返回test_id下的若干个音频
         // dump($vdoRes);
 		$data = array();
         $data['video'] = $Think.VDO_URL.$video;
-        foreach ($audios as $key => $value) {
-            $data['audios'] []= $Think.ADO_URL.$value;
-            $data['adoNames'] []= $ado -> where('ado_file = "'.$value.'"') -> getField('ado_name');        
+        foreach ($audios['adoFiles'] as $key => $value) {
+            $audios['adoFiles'][$key] = $Think.ADO_URL.$value;                                          //data['audios']存储音频文件名
         }
+
+        $data['audios'] = $audios;
 		$this -> ajaxReturn($data);
     }
     public function check($adoDropd,$name,$id){

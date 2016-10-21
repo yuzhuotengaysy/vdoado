@@ -6,7 +6,9 @@ var adoRcr = 0;
 
 //vars for ajaxQuery
 var audios = [];
+var adoFiles = [];
 var adoNames = [];
+var adoIds = [];
 var adoDropd = [];
 var video = '';
 
@@ -18,7 +20,7 @@ function getPath(a4m,a4c,id){
     
 }
 function loadSrc() {
-    for (var i in audios) {     //构建音频方块
+    for (var i in adoFiles) {     //构建音频方块
         $('.drag').append('<div id="' + i + '" class="text-center ado">' + adoNames[i] +'<i class="glyphicon glyphicon-play"></i>' + '<a>x</a></div>')
     }
     $('.vdoPlayer').attr({ //setup video player
@@ -34,7 +36,7 @@ function loadSrc() {
         .hover(function() {
             var i = $(this).attr('id');
             $('.adoPlayer').attr({
-                src: audios[i]
+                src: adoFiles[i]
             });
             $('.adoPlayer')[0].play();
         }, function() {
@@ -59,8 +61,10 @@ function init() {
     })
     .done(function(data) { //get sources
         video = data['video'];                      //视频源 是字符串
-        audios = data['audios'];                    //音频源 是数组
-        adoNames = data['adoNames'];
+        audios = data['audios'];                    //音频源 是二维数组
+        adoFiles = audios['adoFiles'];
+        adoNames = audios['adoNames'];
+        adoIds = audios['adoIds'];
         loadSrc();
         console.log("success");
     })
@@ -100,7 +104,7 @@ function init() {
 
 			        $('#'+adoDropd[adoRcr]).children('i').removeClass('glyphicon-play').addClass('glyphicon-stop');     //play first 
 			        $('.adoPlayer').attr({
-			            src:  audios[adoDropd[adoRcr++]]
+			            src:  adoFiles[adoDropd[adoRcr++]]
 			        })[0].play();
 
 
@@ -116,7 +120,7 @@ function init() {
 							$('#'+adoDropd[adoRcr-1]).children('i').addClass('glyphicon-play').removeClass('glyphicon-stop');
 			        		$('#'+adoDropd[adoRcr]).children('i').removeClass('glyphicon-play').addClass('glyphicon-stop');
 			                $(this).attr({
-			                    src: audios[adoDropd[adoRcr++]]
+			                    src: adoFiles[adoDropd[adoRcr++]]
 			                })[0].play();
 			            }
 			        };
@@ -136,7 +140,8 @@ function init() {
     $('.submit').click(function() {
     	var adoDropd = [];
     	for (var i = 0; i < $('.drop>.ado').length; i++) {
-		    adoDropd[i] = parseInt($('.drop>.ado').eq(i).attr('id'))+1;
+            var index = parseInt($('.drop>.ado').eq(i).attr('id'));
+		    adoDropd[i] = adoIds[index];
 		}
         if(adoDropd.length){
             do{
