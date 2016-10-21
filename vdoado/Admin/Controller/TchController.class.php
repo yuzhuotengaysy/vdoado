@@ -34,11 +34,11 @@ class TchController extends Controller {
         for($i = 1; $i <= count($ado); $i++){                                                        //获得统计图数据
             $map['test_id'] = $_GET["id"];
             $map['ado_id'] = $i;      
-            $temp['x'] = $i;
+            $temp['x'] = '音频'.$i;
             $temp['y'] =  M('result')->where($map)->count('ado_id'); 
             $res_ado []= $temp;                                          
         }
-        
+
         $this -> assign('res_max', $res_max);
         $this -> assign('res_stu', $res_stu);
         $this -> assign('res_ado', $res_ado);
