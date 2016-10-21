@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-21 17:34:11
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-21 18:19:55
          compiled from "./vdoado/Admin/View\Tch\result.html" */ ?>
 <?php /*%%SmartyHeaderCode:24758025be4a389f2-28489265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b13f3b0cbce23bcb7cc6492c1167b933dd4ea55' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\result.html',
-      1 => 1477042449,
+      1 => 1477045192,
       2 => 'file',
     ),
   ),
@@ -227,9 +227,15 @@ teacher.js"></script>
                         $('#modal_video')[0].currentTime = 0; 
                         $('#modal_video')[0].play();                                  //load vdoPlayer
                         var adoRcr = 0;
-                        $('#modal_audio').attr({                                                                    //播放第一个音频
-                            src:  adoFiles[sort[adoRcr++]-1]
-                        })[0].play();
+                        var adoPlaying = sort[adoRcr++];
+                        for (var i = 0; i < adoIds.length; i++) {
+                            if (adoIds[i] == adoPlaying) {
+                                $('#modal_audio').attr({                                                             //播放第一个音频
+                                    src:  adoFiles[i]
+                                })[0].play();
+                            }
+                        }
+                      
                         $('#modal_test').text(res[which][2][adoRcr-1]);
 
                         $('#modal_audio')[0].onended = function() {                                                   //当前音频播放完毕时
@@ -239,11 +245,15 @@ teacher.js"></script>
                                 $('#modal_audio')[0].pause();
                                 $('#modal_audio')[0].onended = null;
                             } else {                                                                                //播放下一个音频
-                                $(this).attr({
-                                    src: adoFiles[sort[adoRcr++]-1]
-                                })[0].play();
-
-                        $('#modal_test').text(res[which][2][adoRcr-1]);
+                                adoPlaying = sort[adoRcr++];
+                                for (var i = 0; i < adoIds.length; i++) {
+                                    if (adoIds[i] == adoPlaying) {
+                                        $('#modal_audio').attr({                                                    //播放第一个音频
+                                            src:  adoFiles[i]
+                                        })[0].play();
+                                    }
+                                }
+                                $('#modal_test').text(res[which][2][adoRcr-1]);
                             }
                         };
                         $('#modal_play').modal();

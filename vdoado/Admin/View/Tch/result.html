@@ -160,9 +160,15 @@
                         $('#modal_video')[0].currentTime = 0; 
                         $('#modal_video')[0].play();                                  //load vdoPlayer
                         var adoRcr = 0;
-                        $('#modal_audio').attr({                                                                    //播放第一个音频
-                            src:  adoFiles[sort[adoRcr++]-1]
-                        })[0].play();
+                        var adoPlaying = sort[adoRcr++];
+                        for (var i = 0; i < adoIds.length; i++) {
+                            if (adoIds[i] == adoPlaying) {
+                                $('#modal_audio').attr({                                                             //播放第一个音频
+                                    src:  adoFiles[i]
+                                })[0].play();
+                            }
+                        }
+                      
                         $('#modal_test').text(res[which][2][adoRcr-1]);
 
                         $('#modal_audio')[0].onended = function() {                                                   //当前音频播放完毕时
@@ -172,11 +178,15 @@
                                 $('#modal_audio')[0].pause();
                                 $('#modal_audio')[0].onended = null;
                             } else {                                                                                //播放下一个音频
-                                $(this).attr({
-                                    src: adoFiles[sort[adoRcr++]-1]
-                                })[0].play();
-
-                        $('#modal_test').text(res[which][2][adoRcr-1]);
+                                adoPlaying = sort[adoRcr++];
+                                for (var i = 0; i < adoIds.length; i++) {
+                                    if (adoIds[i] == adoPlaying) {
+                                        $('#modal_audio').attr({                                                    //播放第一个音频
+                                            src:  adoFiles[i]
+                                        })[0].play();
+                                    }
+                                }
+                                $('#modal_test').text(res[which][2][adoRcr-1]);
                             }
                         };
                         $('#modal_play').modal();
