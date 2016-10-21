@@ -23,8 +23,10 @@ class TchController extends Controller {
 
         $stu = $result -> distinct(true) -> where('test_id = '.$_GET["id"]) -> getField('student_id',true);     //获取学生列表
         for($i = 0; $i < count($stu); $i++){                                                                    //将学生名字和学生提交的ado_id进行匹配
-            $res_stu[$i] []= $student -> where('student_id = "'.$stu[$i].'"') ->getField('student_name');       //学生姓名
-            $res_stu[$i] []= $result -> where('student_id = "'.$stu[$i].'"') ->getField('ado_id',true);         //音频id
+            $maps['student_id'] = $stu[$i];
+            $maps['test_id'] = $_GET["id"];
+            $res_stu[$i] []= $student -> where($maps) ->getField('student_name');       //学生姓名
+            $res_stu[$i] []= $result -> where($maps) ->getField('ado_id',true);         //音频id
             for($j = 0; $j < count($res_stu[$i][1]); $j++){
                 $res_stu[$i][2][]= $ado -> where('ado_id = "'.$res_stu[$i][1][$j].'"') ->getField('ado_name');   //音频名称
             }
