@@ -28,6 +28,7 @@
                             <div class="col-sm-12 b-r">
                                 <form action="{$smarty.const.__SELF__}" method="post" onsubmit="return checkit()">
                                     <div class="form-group">
+                                        <button type="button" id="test">test</button>
                                         <label>课程名称</label>
                                         <input type="test" id="lesson" placeholder="请输入课程名称" class="form-control" name="course_name" style="width:30%">
                                     </div>
@@ -52,6 +53,7 @@
     <script src="{$smarty.const.JS_URL}plugins/iCheck/icheck.min.js"></script>
     <script src="{$smarty.const.JS_URL}plugins/sweetalert/sweetalert.min.js"></script>
     <script type="text/javascript">
+
         function checkit(){
             if($('#lesson').val() ==""){
                 swal('请输入课程名!');
@@ -59,6 +61,9 @@
             }    
             return true;
         }
+   
+
+   
     </script>
 </body>
 

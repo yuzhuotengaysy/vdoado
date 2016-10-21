@@ -136,7 +136,7 @@ function init() {
     $('.submit').click(function() {
     	var adoDropd = [];
     	for (var i = 0; i < $('.drop>.ado').length; i++) {
-		    adoDropd[i] = parseInt($('.drop>.ado').eq(i).attr('id')+1);
+		    adoDropd[i] = parseInt($('.drop>.ado').eq(i).attr('id'))+1;
 		}
         if(adoDropd.length){
             do{

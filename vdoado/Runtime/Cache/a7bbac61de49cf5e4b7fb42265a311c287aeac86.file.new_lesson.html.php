@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-19 12:33:24
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-20 20:01:09
          compiled from "./vdoado/Admin/View\Tch\new_lesson.html" */ ?>
 <?php /*%%SmartyHeaderCode:1166558025a9bc74a84-14657433%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a7bbac61de49cf5e4b7fb42265a311c287aeac86' => 
     array (
       0 => './vdoado/Admin/View\\Tch\\new_lesson.html',
-      1 => 1476766416,
+      1 => 1476964864,
       2 => 'file',
     ),
   ),
@@ -57,6 +57,7 @@ style.min.css-v=4.0.0.css" rel="stylesheet">
                                 <form action="<?php echo @__SELF__;?>
 " method="post" onsubmit="return checkit()">
                                     <div class="form-group">
+                                        <button type="button" id="test">test</button>
                                         <label>课程名称</label>
                                         <input type="test" id="lesson" placeholder="请输入课程名称" class="form-control" name="course_name" style="width:30%">
                                     </div>
@@ -86,6 +87,10 @@ plugins/iCheck/icheck.min.js"></script>
     <script src="<?php echo @JS_URL;?>
 plugins/sweetalert/sweetalert.min.js"></script>
     <script type="text/javascript">
+    $(document).ready(function() {
+        $('#test').on("click", "#test1" ,n);
+        alert("yese");
+    });
         function checkit(){
             if($('#lesson').val() ==""){
                 swal('请输入课程名!');
@@ -93,6 +98,30 @@ plugins/sweetalert/sweetalert.min.js"></script>
             }    
             return true;
         }
+       function n() {
+        var t = $(this).attr("href"),
+            a = $(this).data("index"),
+            i = $.trim($(this).text()),
+            n = !0;
+        if (void 0 == t || 0 == $.trim(t).length) return !1;
+        if ($(".J_menuTab").each(function() {
+                return $(this).data("id") == t ? ($(this).hasClass("active") || ($(this).addClass("active").siblings(".J_menuTab").removeClass("active"), e(this), $(".J_mainContent .J_iframe").each(function() {
+                    return $(this).data("id") == t ? ($(this).show().siblings(".J_iframe").hide(), !1) : void 0
+                })), n = !1, !1) : void 0
+            }), n) {
+            var s = '<a href="javascript:;" class="active J_menuTab" data-id="' + t + '">' + i + ' <i class="fa fa-times-circle"></i></a>';
+            $(".J_menuTab").removeClass("active");
+            var r = '<iframe class="J_iframe" name="iframe' + a + '" width="100%" height="100%" src="' + t + '?v=4.0" frameborder="0" data-id="' + t + '" seamless></iframe>';
+            $(".J_mainContent").find("iframe.J_iframe").hide().parents(".J_mainContent").append(r);
+            var o = layer.load();
+            $(".J_mainContent iframe:visible").load(function() {
+                layer.close(o)
+            }), $(".J_menuTabs .page-tabs-content").append(s), e($(".J_menuTab.active"))
+        }
+        return !1
+    }
+
+   
     </script>
 </body>
 

@@ -431,10 +431,6 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/D/xampp/htdocs/vdoado"
-	],
 	"file_history":
 	[
 		"/D/xampp/htdocs/vdoado/vdoado/Home/Controller/IndexController.class.php",
@@ -691,7 +687,7 @@
 		[
 			[
 				"",
-				"D:\\xampp\\tomcat\\webapps\\myBlog\\web\\ths.sublime-project"
+				"D:\\xampp\\tomcat\\webapps\\GPlayer\\web\\ths.sublime-workspace"
 			]
 		],
 		"width": 475.0

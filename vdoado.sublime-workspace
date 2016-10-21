@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"test",
+				"test1"
+			],
+			[
+				"tes",
+				"test"
+			],
+			[
+				"au",
+				"audio"
+			],
+			[
 				"lien",
 				"line-height"
 			],
@@ -347,6 +359,60 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 933,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vdoado/Public/js/contabs.min.js",
+			"settings":
+			{
+				"buffer_size": 5611,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vdoado/Public/css/style.css",
+			"settings":
+			{
+				"buffer_size": 558,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vdoado/Admin/View/Tch/new_lesson.html",
+			"settings":
+			{
+				"buffer_size": 2973,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vdoado/Admin/View/Index/index.html",
+			"settings":
+			{
+				"buffer_size": 10852,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vdoado/Admin/Controller/IndexController.class.php",
+			"settings":
+			{
+				"buffer_size": 394,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -433,18 +499,39 @@
 	},
 	"expanded_folders":
 	[
-		"/D/xampp/htdocs/vdoado"
+		"/D/xampp/htdocs/vdoado",
+		"/D/xampp/htdocs/vdoado/vdoado",
+		"/D/xampp/htdocs/vdoado/vdoado/Admin",
+		"/D/xampp/htdocs/vdoado/vdoado/Admin/Controller",
+		"/D/xampp/htdocs/vdoado/vdoado/Admin/View",
+		"/D/xampp/htdocs/vdoado/vdoado/Admin/View/Index",
+		"/D/xampp/htdocs/vdoado/vdoado/Admin/View/Tch",
+		"/D/xampp/htdocs/vdoado/vdoado/Public",
+		"/D/xampp/htdocs/vdoado/vdoado/Public/js"
 	],
 	"file_history":
 	[
-		"/D/xampp/htdocs/vdoado/vdoado/Home/Controller/IndexController.class.php",
-		"/D/xampp/htdocs/vdoado/vdoado/Home/Model/index.html",
+		"/D/xampp/tomcat/webapps/GPlayer/demo/.idea/workspace.xml",
+		"/C/Users/GenyaHoshino/Documents/靠谱账号/靠谱账号.txt",
+		"/D/xampp/tomcat/webapps/GPlayer/README.md",
+		"/D/xampp/htdocs/vdoado/vdoado/Public/js/hplus.min.js-v=4.0.0.js",
+		"/D/xampp/htdocs/vdoado/vdoado/Admin/Controller/TchController.class.php",
+		"/C/Users/GenyaHoshino/Downloads/Hplus-v.4.1.0/js/contabs.js",
+		"/C/Users/GenyaHoshino/Downloads/Hplus-v.4.1.0/docs/index.html",
+		"/C/Users/GenyaHoshino/Downloads/Hplus-v.4.1.0/index.html",
+		"/D/xampp/htdocs/vdoado/vdoado/Admin/View/Tch/result.html",
 		"/D/xampp/htdocs/vdoado/vdoado/Home/View/Index/index.html",
+		"/D/xampp/htdocs/vdoado/vdoado/Public/js/script.js",
+		"/D/xampp/htdocs/vdoado/vdoado/Home/Controller/IndexController.class.php",
+		"/D/xampp/htdocs/vdoado/.gitignore",
+		"/D/xampp/htdocs/vdoado/vdoado/Admin/View/Index/index.html",
+		"/D/xampp/htdocs/vdoado/vdoado/Admin/View/index.html",
 		"/D/xampp/htdocs/vdoado/vdoado/Home/Controller/index.html",
+		"/D/xampp/htdocs/vdoado/index.php",
+		"/D/xampp/htdocs/vdoado/vdoado/Home/Model/index.html",
 		"/D/xampp/htdocs/vdoado/vdoado/Home/index.html",
 		"/D/xampp/htdocs/vdoado/vdoado/Admin.php",
 		"/D/xampp/htdocs/vdoado/Admin.php",
-		"/D/xampp/htdocs/vdoado/vdoado/Admin/Controller/TchController.class.php",
 		"/D/xampp/htdocs/vdoado/vdoado/Admin/Controller/IndexController.class.php",
 		"/D/xampp/htdocs/vdoado/vdoado/index.php",
 		"/D/Program Files/sublime3/Data/Packages/Git/Git.sublime-settings",
@@ -551,20 +638,11 @@
 		"/C/Users/GenyaHoshino/Desktop/东方安利素材/幻夜的完美东方安利教室.txt",
 		"/D/Games/ppsspp/memstick/PSP/SYSTEM/ppsspp.ini",
 		"/D/Games/RA2/RA2.INI",
-		"/C/Users/GenyaHoshino/Downloads/download (1)",
-		"/C/Users/GenyaHoshino/Downloads/danmaku.sql",
-		"/C/Users/GenyaHoshino/Downloads/danmaku (1).sql",
-		"/C/Users/GenyaHoshino/Downloads/danmaku (2).sql",
-		"/D/Program Files (x86)/xxzs/Emulators/XX10/Data/Config/VmConfig.xml",
-		"/C/Users/GenyaHoshino/Desktop/Request/第二次选拔赛素材/B/Media/Gallery Sample/images/photos_viewer_atlas_.json",
-		"/C/Users/GenyaHoshino/Desktop/Request/第二次选拔赛素材/B/Media/prefix-free.js",
-		"/C/Users/GenyaHoshino/Desktop/东方安利素材/东方完全安利计划.txt",
-		"/C/Users/GenyaHoshino/Downloads/danmaku (3).sql",
-		"/D/BaiduYunDownload/sexfriend24[cmpfans]/sexfriend24/FxxK 30字网.txt"
+		"/C/Users/GenyaHoshino/Downloads/download (1)"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -578,6 +656,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"checkit",
+			"$(this)",
+			"id",
+			"#",
+			"}\"')",
+			"append",
 			"images",
 			"SITE_URL",
 			"\"",
@@ -619,8 +703,255 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								622,
+								622
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 301.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "vdoado/Public/js/contabs.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								5611
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 48913.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "vdoado/Public/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/CSS3/CSS3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "vdoado/Admin/View/Tch/new_lesson.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2937,
+								2937
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1058.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "vdoado/Admin/View/Index/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10852,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1127,
+								1127
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "vdoado/Admin/Controller/IndexController.class.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -691,7 +1022,7 @@
 		[
 			[
 				"",
-				"D:\\xampp\\tomcat\\webapps\\myBlog\\web\\ths.sublime-project"
+				"D:\\xampp\\htdocs\\vdoado\\vdoado\\Home\\View\\Index\\vdoado.sublime-workspace"
 			]
 		],
 		"width": 475.0
@@ -708,12 +1039,16 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 310.0,
+	"side_bar_width": 481.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
