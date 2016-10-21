@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-10-20 19:51:39
+<?php /* Smarty version Smarty-3.1.6, created on 2016-10-21 15:56:11
          compiled from "./vdoado/Admin/View\Index\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:1924758025a98e48c37-65010371%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2bb73a19e090fcd534e3fc357c5f6cc1c315ba23' => 
     array (
       0 => './vdoado/Admin/View\\Index\\index.html',
-      1 => 1476964260,
+      1 => 1477036123,
       2 => 'file',
     ),
   ),
@@ -81,9 +81,6 @@ $_smarty_tpl->tpl_vars['value']->_loop = true;
 </a>
                             </li>
                             <?php } ?>
-                            <li>
-                                <a class="J_menuItem" id="test1" href="http://localhost/vdoado/index.php/Admin/Tch/lesson/id/1" data-index="0">123</a>
-                            </li>
                         </ul>
                         
                     </li>
